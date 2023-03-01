@@ -1,0 +1,12 @@
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.deps.json
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\bin\Debug\net7.0\TatBlog.Core.pdb
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.AssemblyReference.cache
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfoInputs.cache
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.AssemblyInfo.cs
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\refint\TatBlog.Core.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\TatBlog.Core.pdb
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Core\obj\Debug\net7.0\ref\TatBlog.Core.dll

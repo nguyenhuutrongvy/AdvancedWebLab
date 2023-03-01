@@ -1,0 +1,15 @@
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\bin\Debug\net7.0\TatBlog.Data.deps.json
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\bin\Debug\net7.0\TatBlog.Data.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\bin\Debug\net7.0\TatBlog.Data.pdb
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\bin\Debug\net7.0\TatBlog.Core.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\bin\Debug\net7.0\TatBlog.Core.pdb
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.csproj.AssemblyReference.cache
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.AssemblyInfoInputs.cache
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.AssemblyInfo.cs
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.csproj.CoreCompileInputs.cache
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.csproj.CopyComplete
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\refint\TatBlog.Data.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\TatBlog.Data.pdb
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.Data\obj\Debug\net7.0\ref\TatBlog.Data.dll
