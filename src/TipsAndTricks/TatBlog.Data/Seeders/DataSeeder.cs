@@ -122,12 +122,12 @@ namespace TatBlog.Data.Seeders
         {
             var tags = new List<Tag>()
             {
-                new() { Name = "Google", Description = "Google application", UrlSlug = "" },
-                new() { Name = "ASP.NET MVC", Description = "ASP.NET MVC", UrlSlug = "" },
-                new() { Name = "Razor Page", Description = "Razor Page", UrlSlug = "" },
-                new() { Name = "Blazor", Description = "Blazor", UrlSlug = "" },
-                new() { Name = "Deep Learning", Description = "Deep Learning", UrlSlug = "" },
-                new() { Name = "Neural Network", Description = "Neural Network", UrlSlug = "" }
+                new() { Name = "Google", Description = "Google application", UrlSlug = "google" },
+                new() { Name = "ASP.NET MVC", Description = "ASP.NET MVC", UrlSlug = "asp-dot-net-mvc" },
+                new() { Name = "Razor Page", Description = "Razor Page", UrlSlug = "razor-page" },
+                new() { Name = "Blazor", Description = "Blazor", UrlSlug = "blazor" },
+                new() { Name = "Deep Learning", Description = "Deep Learning", UrlSlug = "deep-learning" },
+                new() { Name = "Neural Network", Description = "Neural Network", UrlSlug = "neural-network" }
             };
 
             _dbContext.AddRange(tags);
@@ -140,12 +140,12 @@ namespace TatBlog.Data.Seeders
         {
             var categories = new List<Category>()
             {
-                new() { Name = ".NET Core", Description = ".NET Core", UrlSlug="" },
-                new() { Name = "Architecture", Description = "Architecture", UrlSlug="" },
-                new() { Name = "Messaging", Description = "Messaging", UrlSlug="" },
-                new() { Name = "OOP", Description = "Object Oriented Programming", UrlSlug="" },
-                new() { Name = "Design Patterns", Description = "Design Patterns", UrlSlug="" },
-                new() { Name = "Programming Languages", Description = "Programming Languages", UrlSlug="" }
+                new() { Name = ".NET Core", Description = ".NET Core", UrlSlug="dot-net-core" },
+                new() { Name = "Architecture", Description = "Architecture", UrlSlug="architecture" },
+                new() { Name = "Messaging", Description = "Messaging", UrlSlug="messaging" },
+                new() { Name = "OOP", Description = "Object Oriented Programming", UrlSlug="oop" },
+                new() { Name = "Design Patterns", Description = "Design Patterns", UrlSlug="design-patterns" },
+                new() { Name = "Programming Languages", Description = "Programming Languages", UrlSlug="programming-languages" }
             };
 
             _dbContext.AddRange(categories);

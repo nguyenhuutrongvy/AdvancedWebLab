@@ -1,4 +1,6 @@
-﻿using TatBlog.Data.Contexts;
+﻿using System.Collections.Immutable;
+using System.Globalization;
+using TatBlog.Data.Contexts;
 using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.WinApp;
@@ -103,23 +105,145 @@ var context = new BlogDbContext();
 
 #region P31_Tutorial
 
-IBlogRepository blogRepo = new BlogRepository(context);
+//IBlogRepository blogRepo = new BlogRepository(context);
 
-var pagingParams = new PagingParams
+//var pagingParams = new PagingParams
+//{
+//    PageNumber = 1,
+//    PageSize = 5,
+//    SortColumn = "Name",
+//    SortOrder = "DESC"
+//};
+
+//var tagList = await blogRepo.GetPagedTagsAsync(pagingParams);
+
+//WriteLine("{0,-5}{1,-50}{2,10}", "ID", "Name", "Count");
+
+//foreach (var item in tagList)
+//{
+//    WriteLine("{0,-5}{1,-50}{2,10}", item.Id, item.Name, item.PostCount);
+//}
+
+#endregion
+
+#region 1-A
+
+//var blogRepo = new BlogRepository(context);
+
+//var tags = await blogRepo.GetTagByUrlSlug("asp-dot-net-mvc");
+
+//WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+//foreach (var tag in tags)
+//{
+//    WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
+//}
+
+#endregion
+
+#region 1-C
+
+//var blogRepo = new BlogRepository(context);
+
+//var tags = await blogRepo.GetTagAndPostAmoutAsync();
+
+//WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}{4,5}", "ID", "Name", "UrlSlug", "Description", "Count");
+
+//foreach (var tag in tags)
+//{
+//    WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}{4,-5}", tag.Id, tag.Name, tag.UrlSlug, tag.Description, tag.PostCount);
+//}
+
+#endregion
+
+#region 1-D
+
+//var blogRepo = new BlogRepository(context);
+
+//var tags = context.Tags.ToList();
+
+//await blogRepo.DeleteTagById("2");
+
+//WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+//foreach (var tag in tags)
+//{
+//    WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
+//}
+
+#endregion
+
+#region 1-E
+
+//var blogRepo = new BlogRepository(context);
+
+//var categories = await blogRepo.GetCategoryByUrlSlug("programming-languages");
+
+//WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+//foreach (var tag in categories)
+//{
+//    WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
+//}
+
+#endregion
+
+#region 1-F
+
+//var blogRepo = new BlogRepository(context);
+
+//var categories = await blogRepo.GetCategoryById(4);
+
+//WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+//foreach (var tag in categories)
+//{
+//    WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
+//}
+
+#endregion
+
+#region 1-G
+
+//var blogRepo = new BlogRepository(context);
+
+//await blogRepo.AddCategory(new TatBlog.Core.Entities.Category()
+//{
+//    Name = "UI/ UX",
+//    Description = "User interface/ User experience",
+//    UrlSlug = "ui-ux"
+//});
+
+//WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+//foreach (var tag in context.Categories)
+//{
+//    WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
+//}
+
+#endregion
+
+#region 1-H
+
+var blogRepo = new BlogRepository(context);
+
+await blogRepo.DeleteCategoryById("7");
+
+var categories = context.Categories.ToList();
+
+WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+foreach (var tag in categories)
 {
-    PageNumber = 1,
-    PageSize = 5,
-    SortColumn = "Name",
-    SortOrder = "DESC"
-};
-
-var tagList = await blogRepo.GetPagedTagsAsync(pagingParams);
-
-WriteLine("{0,-5}{1,-50}{2,10}", "ID", "Name", "Count");
-
-foreach (var item in tagList)
-{
-    WriteLine("{0,-5}{1,-50}{2,10}", item.Id, item.Name, item.PostCount);
+    WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
 }
+
+#endregion
+
+#region 1-I
+
+var blogRepo = new BlogRepository(context);
+
+bool result = await blogRepo.IsCategorySlugExisted("asp");
 
 #endregion
