@@ -12,6 +12,8 @@ namespace TatBlog.Services.Extensions
 {
     public static class PagedListExtensions
     {
+        // Tạo biểu thức dùng để sắp xếp dữ liệu
+        // Sử dụng sau mệnh đề Order By trong truy vấn
         public static string GetOrderExpression(this IPagingParams pagingParams, string defaultColumn = "Id")
         {
             var column = string.IsNullOrWhiteSpace(pagingParams.SortColumn) ? defaultColumn : pagingParams.SortColumn;

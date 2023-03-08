@@ -7,6 +7,7 @@ using TatBlog.Core.Contracts;
 
 namespace TatBlog.WinApp
 {
+    // Đối tượng chứa tham số đầu vào cho việc phân trang
     public class PagingParams : IPagingParams
     {
         public int PageSize { get; set; } = 10;

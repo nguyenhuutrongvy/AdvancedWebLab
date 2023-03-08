@@ -130,7 +130,7 @@ var context = new BlogDbContext();
 
 //var blogRepo = new BlogRepository(context);
 
-//var tags = await blogRepo.GetTagByUrlSlug("asp-dot-net-mvc");
+//var tags = await blogRepo.GetTagByUrlSlug("google");
 
 //WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}", "ID", "Name", "UrlSlug", "Description");
 
@@ -145,7 +145,7 @@ var context = new BlogDbContext();
 
 //var blogRepo = new BlogRepository(context);
 
-//var tags = await blogRepo.GetTagAndPostAmoutAsync();
+//var tags = await blogRepo.GetTagsAsync();
 
 //WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}{4,5}", "ID", "Name", "UrlSlug", "Description", "Count");
 
@@ -160,9 +160,9 @@ var context = new BlogDbContext();
 
 //var blogRepo = new BlogRepository(context);
 
-//var tags = context.Tags.ToList();
+//await blogRepo.RemoveTagById(1);
 
-//await blogRepo.DeleteTagById("2");
+//var tags = context.Tags.ToList();
 
 //WriteLine("{0,-5}{1,-20}{2,-20}{3,-30}", "ID", "Name", "UrlSlug", "Description");
 
@@ -207,11 +207,11 @@ var context = new BlogDbContext();
 
 //var blogRepo = new BlogRepository(context);
 
-//await blogRepo.AddCategory(new TatBlog.Core.Entities.Category()
+//await blogRepo.AddOrUpdateCategory(new TatBlog.Core.Entities.Category()
 //{
-//    Name = "UI/ UX",
-//    Description = "User interface/ User experience",
-//    UrlSlug = "ui-ux"
+//    Name = "New category",
+//    UrlSlug = "new-category",
+//    Description = "New category"
 //});
 
 //WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
@@ -225,25 +225,29 @@ var context = new BlogDbContext();
 
 #region 1-H
 
-var blogRepo = new BlogRepository(context);
+//var blogRepo = new BlogRepository(context);
 
-await blogRepo.DeleteCategoryById("7");
+//await blogRepo.DeleteCategoryById("7");
 
-var categories = context.Categories.ToList();
+//var categories = context.Categories.ToList();
 
-WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+//WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
 
-foreach (var tag in categories)
-{
-    WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
-}
+//foreach (var tag in categories)
+//{
+//    WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", tag.Id, tag.Name, tag.UrlSlug, tag.Description);
+//}
 
 #endregion
 
 #region 1-I
 
-var blogRepo = new BlogRepository(context);
+//var blogRepo = new BlogRepository(context);
 
-bool result = await blogRepo.IsCategorySlugExisted("asp");
+//context.Categories.ToList();
+
+//bool result = await blogRepo.IsCategorySlugExistedAsync(2, "dot-net-core");
+
+//Console.WriteLine(result);
 
 #endregion
