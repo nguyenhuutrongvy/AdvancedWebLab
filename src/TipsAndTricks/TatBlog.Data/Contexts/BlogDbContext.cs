@@ -23,6 +23,11 @@ namespace TatBlog.Data.Contexts
         {
         }
 
+        public BlogDbContext()
+        {
+
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-P15REFA\NHTV;Database=TatBlog;Integrated Security=True;TrustServerCertificate=True");
