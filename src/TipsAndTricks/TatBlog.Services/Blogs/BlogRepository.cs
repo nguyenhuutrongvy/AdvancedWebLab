@@ -446,55 +446,55 @@ namespace TatBlog.Services.Blogs
             return await projectedPosts.ToPagedListAsync(pagingParams);
         }
 
-        //public async Task<Post> CreateOrUpdatePostAsync(
-        //    Post post, IEnumerable<string> tags,
-        //    CancellationToken cancellationToken = default)
-        //{
-        //    if (post.Id > 0)
-        //    {
-        //        await _context.Entry(post).Collection(x => x.Tags).LoadAsync(cancellationToken);
-        //    }
-        //    else
-        //    {
-        //        post.Tags = new List<Tag>();
-        //    }
+        public async Task<Post> CreateOrUpdatePostAsync(
+            Post post, IEnumerable<string> tags,
+            CancellationToken cancellationToken = default)
+        {
+            if (post.Id > 0)
+            {
+                await _context.Entry(post).Collection(x => x.Tags).LoadAsync(cancellationToken);
+            }
+            else
+            {
+                post.Tags = new List<Tag>();
+            }
 
-        //    var validTags = tags.Where(x => !string.IsNullOrWhiteSpace(x))
-        //        .Select(x => new
-        //        {
-        //            Name = x,
-        //            Slug = x.GenerateSlug()
-        //        })
-        //        .GroupBy(x => x.Slug)
-        //        .ToDictionary(g => g.Key, g => g.First().Name);
+            var validTags = tags.Where(x => !string.IsNullOrWhiteSpace(x))
+                .Select(x => new
+                {
+                    Name = x,
+                    Slug = x.GenerateSlug()
+                })
+                .GroupBy(x => x.Slug)
+                .ToDictionary(g => g.Key, g => g.First().Name);
 
-        //    foreach (var kv in validTags)
-        //    {
-        //        if (post.Tags.Any(x => string.Compare(x.UrlSlug, kv.Key, StringComparison.InvariantCultureIgnoreCase) == 0)) continue;
+            foreach (var kv in validTags)
+            {
+                if (post.Tags.Any(x => string.Compare(x.UrlSlug, kv.Key, StringComparison.InvariantCultureIgnoreCase) == 0)) continue;
 
-        //        var tag = await GetTagAsync(kv.Key, cancellationToken) ?? new Tag()
-        //        {
-        //            Name = kv.Value,
-        //            Description = kv.Value,
-        //            UrlSlug = kv.Key
-        //        };
+                var tag = await GetTagAsync(kv.Key, cancellationToken) ?? new Tag()
+                {
+                    Name = kv.Value,
+                    Description = kv.Value,
+                    UrlSlug = kv.Key
+                };
 
-        //        post.Tags.Add(tag);
-        //    }
+                post.Tags.Add(tag);
+            }
 
-        //    post.Tags = post.Tags.Where(t => validTags.ContainsKey(t.UrlSlug)).ToList();
+            post.Tags = post.Tags.Where(t => validTags.ContainsKey(t.UrlSlug)).ToList();
 
-        //    if (post.Id > 0)
-        //        _context.Update(post);
-        //    else
-        //        _context.Add(post);
+            if (post.Id > 0)
+                _context.Update(post);
+            else
+                _context.Add(post);
 
-        //    await _context.SaveChangesAsync(cancellationToken);
+            await _context.SaveChangesAsync(cancellationToken);
 
-        //    return post;
-        //}
+            return post;
+        }
 
-        private IQueryable<Post> FilterPosts(PostQuery pq)
+        private IQueryable<Post> FilterPosts(PostQuery condition)
         {
             //IQueryable<Post> posts = _context.Set<Post>()
             //    .Include(x => x.Category)
@@ -563,41 +563,43 @@ namespace TatBlog.Services.Blogs
             //return posts;
 
             // Compact version
-            //return _context.Set<Post>()
-            //    .Include(x => x.Category)
-            //    .Include(x => x.Author)
-            //    .Include(x => x.Tags)
-            //    .WhereIf(condition.PublishedOnly, x => x.Published)
-            //    .WhereIf(condition.NotPublished, x => !x.Published)
-            //    .WhereIf(condition.CategoryId > 0, x => x.CategoryId == condition.CategoryId)
-            //    .WhereIf(!string.IsNullOrWhiteSpace(condition.CategorySlug), x => x.Category.UrlSlug == condition.CategorySlug)
-            //    .WhereIf(condition.AuthorId > 0, x => x.AuthorId == condition.AuthorId)
-            //    .WhereIf(!string.IsNullOrWhiteSpace(condition.AuthorSlug), x => x.Author.UrlSlug == condition.AuthorSlug)
-            //    .WhereIf(!string.IsNullOrWhiteSpace(condition.TagSlug), x => x.Tags.Any(t => t.UrlSlug == condition.TagSlug))
-            //    .WhereIf(!string.IsNullOrWhiteSpace(condition.Keyword), x => x.Title.Contains(condition.Keyword) ||
-            //                                                                 x.ShortDescription.Contains(condition.Keyword) ||
-            //                                                                 x.Description.Contains(condition.Keyword) ||
-            //                                                                 x.Category.Name.Contains(condition.Keyword) ||
-            //                                                                 x.Tags.Any(t => t.Name.Contains(condition.Keyword)))
-            //    .WhereIf(condition.Year > 0, x => x.PostedDate.Year == condition.Year)
-            //    .WhereIf(condition.Month > 0, x => x.PostedDate.Month == condition.Month)
-            //    .WhereIf(!string.IsNullOrWhiteSpace(condition.TitleSlug), x => x.UrlSlug == condition.TitleSlug);
+            return _context.Set<Post>()
+                .Include(x => x.Category)
+                .Include(x => x.Author)
+                .Include(x => x.Tags)
+                .WhereIf(condition.PublishedOnly, x => x.Published)
+                .WhereIf(condition.NotPublished, x => !x.Published)
+                .WhereIf(condition.CategoryId > 0, x => x.CategoryId == condition.CategoryId)
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.CategorySlug), x => x.Category.UrlSlug == condition.CategorySlug)
+                .WhereIf(condition.AuthorId > 0, x => x.AuthorId == condition.AuthorId)
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.AuthorSlug), x => x.Author.UrlSlug == condition.AuthorSlug)
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.TagSlug), x => x.Tags.Any(t => t.UrlSlug == condition.TagSlug))
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.Keyword), x => x.Title.Contains(condition.Keyword) ||
+                                                                             x.ShortDescription.Contains(condition.Keyword) ||
+                                                                             x.Description.Contains(condition.Keyword) ||
+                                                                             x.Category.Name.Contains(condition.Keyword) ||
+                                                                             x.Tags.Any(t => t.Name.Contains(condition.Keyword)))
+                .WhereIf(condition.Year > 0, x => x.PostedDate.Year == condition.Year)
+                .WhereIf(condition.Month > 0, x => x.PostedDate.Month == condition.Month)
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.TitleSlug), x => x.UrlSlug == condition.TitleSlug);
 
-            var query = _context.Set<Post>()
-            .Include(c => c.Category)
-            .Include(t => t.Tags)
-            .Include(a => a.Author);
-            return query
-                .WhereIf(pq.AuthorId > 0, p => p.AuthorId == pq.AuthorId)
-                .WhereIf(!string.IsNullOrWhiteSpace(pq.AuthorSlug), p => p.Author.UrlSlug.Equals(pq.AuthorSlug))
-                .WhereIf(pq.PostId > 0, p => p.Id == pq.PostId)
-                .WhereIf(pq.CategoryId > 0, p => p.CategoryId == pq.CategoryId)
-                .WhereIf(!string.IsNullOrWhiteSpace(pq.CategorySlug), p => p.Category.UrlSlug.Contains(pq.CategorySlug))
-                .WhereIf(pq.PostedYear > 0, p => p.PostedDate.Year == pq.PostedYear)
-                .WhereIf(pq.PostedMonth > 0, p => p.PostedDate.Month == pq.PostedMonth)
-                .WhereIf(pq.TagId > 0, p => p.Tags.Any(x => x.Id == pq.TagId))
-                .WhereIf(!string.IsNullOrWhiteSpace(pq.TagSlug), p => p.Tags.Any(x => x.UrlSlug.Equals(pq.TagSlug)))
-                .WhereIf(pq.PublishedOnly != null, p => p.Published == pq.PublishedOnly);
+            // ----------
+
+            //var query = _context.Set<Post>()
+            //.Include(c => c.Category)
+            //.Include(t => t.Tags)
+            //.Include(a => a.Author);
+            //return query
+            //    .WhereIf(pq.AuthorId > 0, p => p.AuthorId == pq.AuthorId)
+            //    .WhereIf(!string.IsNullOrWhiteSpace(pq.AuthorSlug), p => p.Author.UrlSlug.Equals(pq.AuthorSlug))
+            //    .WhereIf(pq.PostId > 0, p => p.Id == pq.PostId)
+            //    .WhereIf(pq.CategoryId > 0, p => p.CategoryId == pq.CategoryId)
+            //    .WhereIf(!string.IsNullOrWhiteSpace(pq.CategorySlug), p => p.Category.UrlSlug.Contains(pq.CategorySlug))
+            //    .WhereIf(pq.PostedYear > 0, p => p.PostedDate.Year == pq.PostedYear)
+            //    .WhereIf(pq.PostedMonth > 0, p => p.PostedDate.Month == pq.PostedMonth)
+            //    .WhereIf(pq.TagId > 0, p => p.Tags.Any(x => x.Id == pq.TagId))
+            //    .WhereIf(!string.IsNullOrWhiteSpace(pq.TagSlug), p => p.Tags.Any(x => x.UrlSlug.Equals(pq.TagSlug)))
+            //    .WhereIf(pq.PublishedOnly != null, p => p.Published == pq.PublishedOnly);
         }
 
         #endregion

@@ -84,10 +84,17 @@
 #endregion
 
 using TatBlog.WebApp.Extensions;
+using TatBlog.WebApp.Mapster;
+using TatBlog.WebApp.Validations;
 
 var builder = WebApplication.CreateBuilder(args);
 {
-    builder.ConfigureMvc().ConfigureServices();
+    builder
+        .ConfigureMvc()
+        .ConfigureNLog()
+        .ConfigureServices()
+        .ConfigureMapster()
+        .ConfigureFluentValidation();
 }
 
 var app = builder.Build();
