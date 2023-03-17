@@ -3766,6 +3766,21 @@
         "runtime": {
           "bin/placeholder/TatBlog.Services.dll": {}
         }
+      },
+      "TatBlog.WinApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TatBlog.Core": "1.0.0",
+          "TatBlog.Data": "1.0.0",
+          "TatBlog.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TatBlog.WinApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TatBlog.WinApp.dll": {}
+        }
       }
     }
   },
@@ -10811,6 +10826,11 @@
       "type": "project",
       "path": "../TatBlog.Services/TatBlog.Services.csproj",
       "msbuildProject": "../TatBlog.Services/TatBlog.Services.csproj"
+    },
+    "TatBlog.WinApp/1.0.0": {
+      "type": "project",
+      "path": "../TatBlog.WinApp/TatBlog.WinApp.csproj",
+      "msbuildProject": "../TatBlog.WinApp/TatBlog.WinApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10818,10 +10838,12 @@
       "FluentValidation.AspNetCore >= 11.2.2",
       "Mapster.DependencyInjection >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.4",
+      "NLog >= 5.1.2",
       "NLog.Web.AspNetCore >= 5.2.2",
       "TatBlog.Core >= 1.0.0",
       "TatBlog.Data >= 1.0.0",
-      "TatBlog.Services >= 1.0.0"
+      "TatBlog.Services >= 1.0.0",
+      "TatBlog.WinApp >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10859,6 +10881,9 @@
             },
             "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj": {
               "projectPath": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj"
+            },
+            "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj": {
+              "projectPath": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj"
             }
           }
         }
@@ -10884,6 +10909,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.1.2, )"
           },
           "NLog.Web.AspNetCore": {
             "target": "Package",

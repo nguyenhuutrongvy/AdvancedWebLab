@@ -20,6 +20,7 @@
                 <th>Tác giả</th>
                 <th>Chủ đề</th>
                 <th>Xuất bản</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -45,12 +46,37 @@
                         @post.Category.Name
                     </td>
                     <td>
-                        @(post.Published ? "Có" : "Không")
+                        <a type="submit" class="btn btn-sm @(post.Published ? "btn-success" : "btn-danger")"
+                        asp-area="Admin"
+                        asp-controller="Posts"
+                        asp-action="UpdateType"
+                        asp-route-id="@post.Id">
+                            @if (post.Published)
+                            {
+                                <i class="fa fa-check"></i>
+                            }
+                            else
+                            {
+                                <i class="fa fa-times"></i>
+                            }
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-area="Admin"
+                   asp-controller="Posts"
+                   asp-action="Delete"
+                   asp-route-id="@post.Id"
+                   class="btn btn-outline-danger"
+                   onclick="return confirm('Bạn có thực sự muốn xóa bài viết này không?')">
+                            Xóa
+                        </a>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
+
+    <partial name="_Pager" model="@postsList" />
 }
 else
 {

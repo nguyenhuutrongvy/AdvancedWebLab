@@ -17,7 +17,8 @@ namespace TatBlog.WebApp.Validations
 
             RuleFor(x => x.Title)
                 .NotEmpty()
-                .MaximumLength(500);
+                .MaximumLength(500)
+                .WithMessage("Bạn phải nhập tiêu đề cho bài viết");
 
             RuleFor(x => x.ShortDescription)
                 .NotEmpty();
@@ -31,7 +32,8 @@ namespace TatBlog.WebApp.Validations
 
             RuleFor(x => x.UrlSlug)
                 .NotEmpty()
-                .MaximumLength(1000);
+                .MaximumLength(1000)
+                .WithMessage("Url Slug không được để trống");
 
             RuleFor(x => x.UrlSlug)
                 .MustAsync(async (postModel, slug, CancellationToken) => !await blogRepository.IsPostSlugExistedAsync(

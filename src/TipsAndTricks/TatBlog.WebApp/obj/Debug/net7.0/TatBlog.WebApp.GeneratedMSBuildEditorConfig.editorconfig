@@ -20,8 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aG9yc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Categories/CategoryFilterPane.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xDYXRlZ29yeUZpbHRlclBhbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Categories/_Pager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xfUGFnZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Comments/Index.cshtml]
@@ -38,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Posts/_Pager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUG9zdHNcX1BhZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/NHTV/Desktop/PhatTrienUngDungWebNangCao/Lab/Lab01/TipsAndTricks/TatBlog.WebApp/Areas/Admin/Views/Posts/_PostFilterPane.cshtml]

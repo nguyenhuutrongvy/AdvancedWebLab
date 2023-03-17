@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\images\\image_1.png"
     },
     {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\image_2.png",
+      "PackagePath": "staticwebassets\\images\\image_2.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\image_3.png",
+      "PackagePath": "staticwebassets\\images\\image_3.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\image_4.png",
+      "PackagePath": "staticwebassets\\images\\image_4.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\image_5.png",
+      "PackagePath": "staticwebassets\\images\\image_5.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\image_6.png",
+      "PackagePath": "staticwebassets\\images\\image_6.png"
+    },
+    {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
@@ -815,6 +835,42 @@
     {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\lib\\speakingurl\\speakingurl.min.js",
       "PackagePath": "staticwebassets\\lib\\speakingurl\\speakingurl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\0c7cfafa26494493b1dec24965b505ce.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\0c7cfafa26494493b1dec24965b505ce.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\18ab6851a4ef4a9081a1346d260082e9.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\18ab6851a4ef4a9081a1346d260082e9.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\1dc100c2c6c740bdaafa10d54f508b72.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\1dc100c2c6c740bdaafa10d54f508b72.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\22688e6181514255af572d4ba19579c5.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\22688e6181514255af572d4ba19579c5.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\4443584550aa4e3a91a250d27172ce29.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\4443584550aa4e3a91a250d27172ce29.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\6185c1946a40464097c990f00ab543df.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\6185c1946a40464097c990f00ab543df.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\684d662f83934c9381af0b10df20f90b.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\684d662f83934c9381af0b10df20f90b.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\783cd1ad47344d97bc385d95d36d6d90.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\783cd1ad47344d97bc385d95d36d6d90.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\96d7da05efd642dab6213552d3ba012f.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\96d7da05efd642dab6213552d3ba012f.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TatBlog.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

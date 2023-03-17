@@ -19,7 +19,7 @@ namespace TatBlog.WebApp.Controllers
         public async Task<IActionResult> Index(
             [FromQuery(Name = "k")] string keyword = null,
             [FromQuery(Name = "p")] int pageNumber = 1,
-            [FromQuery(Name = "ps")] int pageSize = 2)
+            [FromQuery(Name = "ps")] int pageSize = 3)
         {
             // Tạo đối tượng chứa các điều kiện truy vấn
             var postQuery = new PostQuery()

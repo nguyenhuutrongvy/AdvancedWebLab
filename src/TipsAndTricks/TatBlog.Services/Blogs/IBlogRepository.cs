@@ -35,5 +35,13 @@ namespace TatBlog.Services.Blogs
         Task<Category> CreateOrUpdateCategoryAsync(Category category, CancellationToken cancellationToken = default);
 
         Task<Post> CreateOrUpdatePostAsync(Post post, IEnumerable<string> tags, CancellationToken cancellationToken = default);
+
+        Task<bool> DeletePostAsync(int postId, CancellationToken cancellationToken = default);
+
+        Task<bool> UpdatePostStatusAsync(int postId, CancellationToken cancellationToken = default);
+
+        Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(IPagingParams pagingParams, CancellationToken cancellationToken = default);
+
+        Task<IList<Category>> GetCategoryById(int id, CancellationToken cancellationToken = default);
     }
 }

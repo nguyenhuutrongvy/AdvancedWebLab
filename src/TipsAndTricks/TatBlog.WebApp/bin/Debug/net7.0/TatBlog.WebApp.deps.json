@@ -11,10 +11,12 @@
           "FluentValidation.AspNetCore": "11.2.2",
           "Mapster.DependencyInjection": "1.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.4",
+          "NLog": "5.1.2",
           "NLog.Web.AspNetCore": "5.2.2",
           "TatBlog.Core": "1.0.0",
           "TatBlog.Data": "1.0.0",
-          "TatBlog.Services": "1.0.0"
+          "TatBlog.Services": "1.0.0",
+          "TatBlog.WinApp": "1.0.0"
         },
         "runtime": {
           "TatBlog.WebApp.dll": {}
@@ -2350,6 +2352,16 @@
         "runtime": {
           "TatBlog.Services.dll": {}
         }
+      },
+      "TatBlog.WinApp/1.0.0": {
+        "dependencies": {
+          "TatBlog.Core": "1.0.0",
+          "TatBlog.Data": "1.0.0",
+          "TatBlog.Services": "1.0.0"
+        },
+        "runtime": {
+          "TatBlog.WinApp.dll": {}
+        }
       }
     }
   },
@@ -3658,6 +3670,11 @@
       "sha512": ""
     },
     "TatBlog.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TatBlog.WinApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -23,5 +23,10 @@ namespace TatBlog.Core.Entities
 
         // Danh sách các bài viết thuộc chuyên mụcs
         public IList<Post> Posts { get; set; }
+
+        public Category()
+        {
+
+        }
     }
 }

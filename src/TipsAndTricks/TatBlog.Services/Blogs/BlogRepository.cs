@@ -333,7 +333,7 @@ namespace TatBlog.Services.Blogs
             var rowsCount = await _context.SaveChangesAsync(cancellationToken);
 
             return rowsCount > 0;
-        }
+        }        
 
         public async Task<Tag> GetTagAsync(
             string slug, CancellationToken cancellationToken = default)
@@ -494,6 +494,11 @@ namespace TatBlog.Services.Blogs
             return post;
         }
 
+        private string GenerateSlug(string s)
+        {
+            return s.ToLower().Replace(".", "dot").Replace(" ", "-");
+        }
+
         private IQueryable<Post> FilterPosts(PostQuery condition)
         {
             //IQueryable<Post> posts = _context.Set<Post>()
@@ -604,6 +609,31 @@ namespace TatBlog.Services.Blogs
 
         #endregion
 
+        public async Task<bool> DeletePostAsync(
+            int postId, CancellationToken cancellationToken = default)
+        {
+            var post = await _context.Set<Post>().FindAsync(postId);
 
+            if (post is null) return false;
+
+            _context.Set<Post>().Remove(post);
+            var rowsCount = await _context.SaveChangesAsync(cancellationToken);
+
+            return rowsCount > 0;
+        }
+        
+        public async Task<bool> UpdatePostStatusAsync(
+            int postId, CancellationToken cancellationToken = default)
+        {
+            var post = await _context.Set<Post>().FindAsync(postId);
+
+            if (post is null) return false;
+
+            post.Published = !(post.Published);
+
+            var rowsCount = await _context.SaveChangesAsync(cancellationToken);
+
+            return rowsCount > 0;
+        }
     }
 }

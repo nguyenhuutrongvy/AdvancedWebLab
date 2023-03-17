@@ -27,6 +27,9 @@ namespace TatBlog.WebApp.Areas.Admin.Models
 
         public IEnumerable<SelectListItem> MonthList { get; set; }
 
+        [DisplayName("Chưa xuất bản")]
+        public bool NotPublished { get; set; } = false;
+
         public PostFilterModel()
         {
             MonthList = Enumerable.Range(1, 12)

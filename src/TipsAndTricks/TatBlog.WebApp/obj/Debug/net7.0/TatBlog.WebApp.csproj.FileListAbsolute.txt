@@ -285,3 +285,8 @@ C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog
 C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\NLog.dll
 C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\NLog.Extensions.Logging.dll
 C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\TatBlog.WinApp.deps.json
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\TatBlog.WinApp.runtimeconfig.json
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\TatBlog.WinApp.exe
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\TatBlog.WinApp.dll
+C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApp\bin\Debug\net7.0\TatBlog.WinApp.pdb

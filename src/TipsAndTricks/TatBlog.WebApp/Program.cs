@@ -86,22 +86,42 @@
 using TatBlog.WebApp.Extensions;
 using TatBlog.WebApp.Mapster;
 using TatBlog.WebApp.Validations;
+using NLog;
+using NLog.Web;
+using System;
 
-var builder = WebApplication.CreateBuilder(args);
+var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+logger.Debug("init main");
+
+try
 {
-    builder
-        .ConfigureMvc()
-        .ConfigureNLog()
-        .ConfigureServices()
-        .ConfigureMapster()
-        .ConfigureFluentValidation();
-}
+    var builder = WebApplication.CreateBuilder(args);
+    {
+        builder
+            .ConfigureMvc()
+            .ConfigureNLog()
+            .ConfigureServices()
+            .ConfigureMapster()
+            .ConfigureFluentValidation();
+    }
 
-var app = builder.Build();
+    var app = builder.Build();
+    {
+        app.UseRequestPipeline();
+        app.UseBlogRoutes();
+        app.UseDataSeeder();
+    }
+
+    app.Run();
+}
+catch (Exception exception)
 {
-    app.UseRequestPipeline();
-    app.UseBlogRoutes();
-    app.UseDataSeeder();
+    // NLog: catch setup errors
+    logger.Error(exception, "Stopped program because of exception");
+    throw;
 }
-
-app.Run();
+finally
+{
+    // Ensure to flush and stop internal timers/threads before application-exit (Avoid segmentation fault on Linux)
+    NLog.LogManager.Shutdown();
+}
