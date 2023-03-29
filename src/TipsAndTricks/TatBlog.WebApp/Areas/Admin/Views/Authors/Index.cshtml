@@ -1,7 +1,74 @@
-﻿@{
-    ViewData["PageTitle"] = "Tác giả";
+﻿@model TatBlog.WebApp.Areas.Admin.Models.AuthorFilterModel
+@{
+    ViewData["PageTitle"] = "Danh sách tác giả";
+    var authorsList = ViewBag.AuthorsList as IPagedList<AuthorItem>;
 }
 
 <h1>
     Danh sách tác giả
 </h1>
+
+<partial name="_AuthorFilterPane" model="Model" />
+
+@if (authorsList != null && authorsList.Count > 0)
+{
+    <table class="table table-responsive table-striped">
+        <thead>
+            <tr>
+                <th>Họ và tên</th>
+                <th>URL Slug</th>
+                <th>Ngày tham gia</th>
+                <th>Email</th>
+                <th>Ghi chú</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var author in authorsList)
+            {
+                <tr>
+                    <td>
+                        <a asp-area="Admin"
+                   asp-controller="Authors"
+                   asp-action="Edit"
+                   asp-route-id="@author.Id"
+                   class="text-bold">
+                            @author.FullName
+                        </a>
+                    </td>
+                    <td>
+                        @author.UrlSlug
+                    </td>
+                    <td>
+                        @author.JoinedDate
+                    </td>
+                    <td>
+                        @author.Email
+                    </td>
+                    <td>
+                        @author.Notes
+                    </td>
+                    <td>
+                        <a asp-area="Admin"
+                   asp-controller="Authors"
+                   asp-action="Delete"
+                   asp-route-id="@author.Id"
+                   class="btn btn-outline-danger"
+                   onclick="return confirm('Bạn có thực sự muốn xóa tác giả này không?')">
+                            Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <partial name="_Pager" model="@authorsList" />
+}
+else
+{
+    <h1 class="text-danger">
+        Không tìm thấy tác giả nào!
+    </h1>
+}
+

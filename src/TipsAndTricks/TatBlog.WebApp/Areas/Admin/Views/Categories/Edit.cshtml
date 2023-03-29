@@ -55,7 +55,7 @@
             Lưu các thay đổi
         </button>
 
-        <a asp-asp-area="Admin"
+        <a asp-area="Admin"
            asp-controller="Categories"
            asp-action="Index"
            class="btn btn-danger">
@@ -72,7 +72,7 @@
 
     <script>
         $(function () {
-            $('#Title').change(function () {
+            $('#Name').change(function () {
                 var slug = getSlug(this.value);
                 $('#UrlSlug').val(slug).trigger('blur');
             });

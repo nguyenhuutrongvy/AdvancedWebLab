@@ -83,12 +83,11 @@
 
 #endregion
 
+using NLog;
+using NLog.Web;
 using TatBlog.WebApp.Extensions;
 using TatBlog.WebApp.Mapster;
 using TatBlog.WebApp.Validations;
-using NLog;
-using NLog.Web;
-using System;
 
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");

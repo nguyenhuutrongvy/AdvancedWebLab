@@ -3,12 +3,8 @@ using FluentValidation.AspNetCore;
 using MapsterMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.VisualBasic;
-using System.Drawing.Printing;
 using TatBlog.Core.Constants;
 using TatBlog.Core.Entities;
-using TatBlog.Data.Contexts;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Media;
 using TatBlog.WebApp.Areas.Admin.Models;
@@ -19,14 +15,16 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
     {
         private readonly ILogger<PostsController> _logger;
         private readonly IBlogRepository _blogRepository;
+        private readonly IAuthorRepository _authorRepository;
         private readonly IMediaManager _mediaManager;
         private readonly IMapper _mapper;
         private readonly IValidator<PostEditModel> _validator;
 
-        public PostsController(ILogger<PostsController> logger, IBlogRepository blogRepository, IMediaManager mediaManager, IMapper mapper, IValidator<PostEditModel> validator)
+        public PostsController(ILogger<PostsController> logger, IBlogRepository blogRepository, IAuthorRepository authorRepository, IMediaManager mediaManager, IMapper mapper, IValidator<PostEditModel> validator)
         {
             _logger = logger;
             _blogRepository = blogRepository;
+            _authorRepository = authorRepository;
             _mediaManager = mediaManager;
             _mapper = mapper;
             _validator = validator;
@@ -50,8 +48,6 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
             _logger.LogInformation("Lấy danh sách bài viết từ CSDL");
 
-            //BlogDbContext context = new BlogDbContext();
-
             ViewBag.PostsList = await _blogRepository.GetPagedPostsAsync(postQuery, pageNumber, pageSize);
 
             _logger.LogInformation("Chuẩn bị dữ liệu cho ViewModel");
@@ -63,7 +59,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
         private async Task PopulatePostFilterModelAsync(PostFilterModel model)
         {
-            var authors = await _blogRepository.GetAuthorsAsync();
+            var authors = await _authorRepository.GetAuthorsAsync();
             var categories = await _blogRepository.GetCategoriesAsync();
 
             model.AuthorList = authors.Select(a => new SelectListItem()
@@ -81,7 +77,7 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
 
         private async Task PopulatePostEditModelAsync(PostEditModel model)
         {
-            var authors = await _blogRepository.GetAuthorsAsync();
+            var authors = await _authorRepository.GetAuthorsAsync();
             var categories = await _blogRepository.GetCategoriesAsync();
 
             model.AuthorList = authors.Select(a => new SelectListItem()

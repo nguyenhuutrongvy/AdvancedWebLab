@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using TatBlog.Core.Constants;
-using TatBlog.Core.Entities;
 using TatBlog.Services.Blogs;
 
 namespace TatBlog.WebApp.Controllers
@@ -140,6 +138,30 @@ namespace TatBlog.WebApp.Controllers
             ViewBag.PostQuery = postQuery;
 
             return View(postsList);
+        }
+        
+        public async Task<IActionResult> DetailPost(
+            [FromQuery(Name = "slug")] string slug = null,
+            [FromQuery(Name = "p")] int pageNumber = 1,
+            [FromQuery(Name = "ps")] int pageSize = 2)
+        {
+            // Tạo đối tượng chứa các điều kiện truy vấn
+            var postQuery = new PostQuery()
+            {
+                // Chỉ lấy những bài viết có trạng thái Published
+                PublishedOnly = true,
+
+                // Tìm bài viết theo từ khóa
+                PostSlug = slug
+            };
+
+            // Truy vấn các bài viết theo điều kiện đã tạo
+            var post = await _blogRepository.GetPostAsync(slug);
+
+            // Lưu lại điều kiện truy vấn để hiển thị trong View
+            ViewBag.PostQuery = postQuery;
+
+            return View("Post", post);
         }
 
         public IActionResult About() => View();

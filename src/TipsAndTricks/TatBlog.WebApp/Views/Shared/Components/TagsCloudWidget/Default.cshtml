@@ -1,0 +1,19 @@
+﻿@model IList<TagItem>
+
+<div class="mb-4">
+    <h3 class="text-success mb-2">
+        Tag cloud
+    </h3>
+
+    @foreach (var item in Model)
+    {
+        <a asp-area=""
+       asp-controller="Blog"
+       asp-action="Tag"
+       asp-route-slug="@item.UrlSlug"
+       title="Tag: @item.Name"
+       class="btn btn-sm btn-outline-secondary m-2">
+            @item.Name
+        </a>
+    }
+</div>

@@ -1,12 +1,17 @@
-﻿using System.Collections.Immutable;
-using System.Globalization;
+﻿using System.Text;
+using TatBlog.Core.Contracts;
+using TatBlog.Core.DTO;
+using TatBlog.Core.Entities;
 using TatBlog.Data.Contexts;
-using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
+using TatBlog.Services.Extensions;
 using TatBlog.WinApp;
 using static System.Console;
 
+Console.OutputEncoding = Encoding.UTF8;
+
 var context = new BlogDbContext();
+BlogRepository repo = new BlogRepository(context);
 
 #region P16_Exec
 
@@ -205,13 +210,12 @@ var context = new BlogDbContext();
 
 #region 1-G
 
-//var blogRepo = new BlogRepository(context);
-
-//await blogRepo.AddOrUpdateCategory(new TatBlog.Core.Entities.Category()
+//await repo.AddOrUpdateCategory(new Category()
 //{
-//    Name = "New category",
-//    UrlSlug = "new-category",
-//    Description = "New category"
+//    Id = 8,
+//    Name = "Lagy category",
+//    UrlSlug = "lagy-category",
+//    Description = "Lagy category"
 //});
 
 //WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
@@ -225,9 +229,7 @@ var context = new BlogDbContext();
 
 #region 1-H
 
-//var blogRepo = new BlogRepository(context);
-
-//await blogRepo.DeleteCategoryById("7");
+//await repo.DeleteCategoryAsync(12);
 
 //var categories = context.Categories.ToList();
 
@@ -242,12 +244,36 @@ var context = new BlogDbContext();
 
 #region 1-I
 
-//var blogRepo = new BlogRepository(context);
-
-//context.Categories.ToList();
-
-//bool result = await blogRepo.IsCategorySlugExistedAsync(2, "dot-net-core");
+//bool result = await repo.IsCategorySlugExistedAsync("dot-net-core");
 
 //Console.WriteLine(result);
+
+#endregion
+
+#region 1-J
+
+//WriteLine("{0,-5}{1,-30}{2,-30}{3,-30}", "ID", "Name", "UrlSlug", "Description");
+
+//PagingParams pages = new PagingParams
+//{
+//    PageNumber = 1,
+//    PageSize = 3,
+//    SortColumn = "Name"
+//};
+
+#endregion
+
+#region 1-K
+
+var nearList = await repo.GetNearPosts(6);
+
+foreach (var post in nearList)
+{
+    WriteLine($"ID      : {post.Id}");
+    WriteLine($"Title   : {post.Title}");
+    WriteLine($"View    : {post.ViewCount}");
+    WriteLine($"Date    : {post.PostedDate:dd/MM/yyyy}");
+    WriteLine("".PadRight(80, '-'));
+}
 
 #endregion

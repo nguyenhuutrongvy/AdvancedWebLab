@@ -1,5 +1,5 @@
 ﻿@using TatBlog.Core.Constants;
-@model IPagedList<Post>
+@model Post
 
 @{
     ViewData["PageTitle"] = "Chi tiết bài viết";
@@ -7,18 +7,50 @@
     var postQuery = (ViewBag.PostQuery as PostQuery) ?? new PostQuery();
 }
 
-<div class="p-4">
-    @if (!string.IsNullOrWhiteSpace(postQuery.Keyword))
-    {
-        <h3 class="text-primary mb-3">
-            Những bài viết chứa từ khóa '@postQuery.Keyword'
-        </h3>
-    }
+@{
+    var imageUrl = string.IsNullOrWhiteSpace(Model.ImageUrl) ? "/images/image_1.png" : $"/{Model.ImageUrl}";
+}
 
-    @foreach (var postItem in Model)
-    {
-        <partial name="_PostList" model="postItem" />
-    }
+<h1>Chi tiết bài viết @Model.Title</h1>
 
-    <partial name="_Pager" model="@Model" />
-</div>
+<article class="blog-entry mb-4">
+    <div class="card">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@imageUrl"
+                     class="card-img"
+                     alt="@Model.Title" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        @Model.Title
+                    </h5>
+                    <p class="card-text">
+                        <small class="text-muted">
+                            Tác giả
+                        </small>
+                        <a asp-area="" asp-controller="Blog" asp-action="Author" asp-route-slug="@Model.Author.UrlSlug">
+                            <span class="text-primary">@Model.Author.FullName</span>
+                        </a>
+                        <small class="text-muted">
+                            Chủ đề
+                        </small>
+                        <a asp-area="" asp-controller="Blog" asp-action="Category" asp-route-slug="@Model.Category.UrlSlug">
+                            <span class="text-primary">@Model.Category.Name</span>
+                        </a>
+                    </p>
+                    <p class="cardtext">
+                        @Model.Description
+                    </p>
+                    <div class="tag-list">
+                        
+                    </div>
+                    <div class="text-end">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

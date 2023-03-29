@@ -1,0 +1,21 @@
+2023-03-29 18:25:06.8929 Info Message Template Auto Format enabled
+2023-03-29 18:25:06.9034 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-29 18:25:06.9496 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-29 18:25:06.9496 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-29 18:25:06.9496 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-29 18:25:06.9806 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-03-29 18:25:09.3889 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-03-29 22:09:27.3767 Info Message Template Auto Format enabled
+2023-03-29 22:09:27.3907 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-29 22:09:27.4400 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-29 22:09:27.4439 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-29 22:09:27.4439 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-29 22:09:27.4739 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-03-29 22:09:29.1599 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-03-29 22:28:24.6125 Info Message Template Auto Format enabled
+2023-03-29 22:28:24.6125 Info Loading assembly: NLog.Web.AspNetCore
+2023-03-29 22:28:24.6765 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-03-29 22:28:24.6765 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-03-29 22:28:24.6765 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-03-29 22:28:24.7138 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-03-29 22:28:26.4076 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config

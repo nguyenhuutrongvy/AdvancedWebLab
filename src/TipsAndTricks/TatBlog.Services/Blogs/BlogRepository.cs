@@ -1,13 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Dynamic.Core;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using TatBlog.Core.Constants;
 using TatBlog.Core.Contracts;
 using TatBlog.Core.DTO;
@@ -136,7 +128,7 @@ namespace TatBlog.Services.Blogs
                     Name = x.Name,
                     UrlSlug = x.UrlSlug,
                     Description = x.Description,
-                    PostCount = x.Posts.Count(p => p.Published)
+                    PostCount = x.Posts.Count()
                 })
                 .ToListAsync(cancellationToken);
         }
@@ -157,31 +149,42 @@ namespace TatBlog.Services.Blogs
         public async Task<IList<Category>> GetCategoryByUrlSlug(string slug, CancellationToken cancellationToken = default)
         {
             return await _context.Set<Category>()
-                .Where(x => x.UrlSlug == slug)
+                .Where(x => x.UrlSlug.ToLower().Contains(slug.ToLower()))
                 .ToListAsync(cancellationToken);
         }
 
         // Tìm một chuyên mục theo Id
-        public async Task<IList<Category>> GetCategoryById(int id, CancellationToken cancellationToken = default)
+        public async Task<Category> GetCategoryById(int id, CancellationToken cancellationToken = default)
         {
             return await _context.Set<Category>()
-                .Where(x => x.Id == id)
-                .ToListAsync(cancellationToken);
+                .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
         }
 
         // Thêm hoặc cập nhật một chuyên mục
         public async Task AddOrUpdateCategory(Category category, CancellationToken cancellationToken = default)
         {
-            if (await IsCategorySlugExistedAsync(category.Id, category.UrlSlug))
+            //if (IsCategorySlugExistedAsync(category.Id, category.UrlSlug))
+            //{
+            //    var oldCategory = await _context.Categories.FirstOrDefaultAsync(x => x.UrlSlug.Equals(category.UrlSlug), cancellationToken);
+            //    category.Id = oldCategory.Id;
+            //    _context.Entry(oldCategory).CurrentValues.SetValues(category);
+            //    await _context.SaveChangesAsync();
+            //}
+            //else
+            //{
+            //    _context.Add(category);
+            //    await _context.SaveChangesAsync();
+            //}
+
+            if (category.Id < 0)
             {
-                var oldCategory = await _context.Categories.FirstOrDefaultAsync(x => x.UrlSlug.Equals(category.UrlSlug), cancellationToken);
-                category.Id = oldCategory.Id;
-                _context.Entry(oldCategory).CurrentValues.SetValues(category);
+                category.Id = 0;
+                _context.Set<Category>().Add(category);
                 await _context.SaveChangesAsync();
             }
             else
             {
-                _context.Add(category);
+                _context.Set<Category>().Update(category);
                 await _context.SaveChangesAsync();
             }
         }
@@ -196,10 +199,10 @@ namespace TatBlog.Services.Blogs
         //    return await _context.Set<Category>().AnyAsync(x => x.Id == categoryId && x.UrlSlug == slug, cancellationToken);
         //}
 
-        //public async Task<bool> IsCategorySlugExistedAsync(string slug, CancellationToken cancellationToken = default)
-        //{
-        //    return await _context.Set<Category>().AnyAsync(x => x.UrlSlug == slug, cancellationToken);
-        //}
+        public async Task<bool> IsCategorySlugExistedAsync(string slug, CancellationToken cancellationToken = default)
+        {
+            return await _context.Set<Category>().AnyAsync(x => x.UrlSlug == slug, cancellationToken);
+        }
 
         #region Solution
 
@@ -279,6 +282,11 @@ namespace TatBlog.Services.Blogs
             return await _context.Set<Category>().FindAsync(categoryId);
         }
 
+        public async Task<Tag> GetTagByIdAsync(int tagId)
+        {
+            return await _context.Set<Tag>().FindAsync(tagId);
+        }
+
         public async Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(
             IPagingParams pagingParams,
             CancellationToken cancellationToken = default)
@@ -291,6 +299,67 @@ namespace TatBlog.Services.Blogs
                     UrlSlug = x.UrlSlug,
                     Description = x.Description,
                     ShowOnMenu = x.ShowOnMenu,
+                    PostCount = x.Posts.Count(p => p.Published)
+                });
+
+            return await tagQuery.ToPagedListAsync(pagingParams, cancellationToken);
+        }
+
+        public async Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(
+            PostQuery query,
+            IPagingParams pagingParams,
+            CancellationToken cancellationToken = default)
+        {
+            var tagQuery = _context.Set<Category>()
+                .Where(x => x.Name.ToLower().Contains(query.Keyword.ToLower()))
+                .Select(x => new CategoryItem()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    UrlSlug = x.UrlSlug,
+                    Description = x.Description,
+                    ShowOnMenu = x.ShowOnMenu,
+                    PostCount = x.Posts.Count(p => p.Published)
+                });
+
+            return await tagQuery.ToPagedListAsync(pagingParams, cancellationToken);
+        }
+
+        public async Task<IPagedList<TagItem>> GetPagedTagsAsync(
+            PostQuery query,
+            IPagingParams pagingParams,
+            CancellationToken cancellationToken = default)
+        {
+            var tagQuery = _context.Set<Tag>()
+                .Where(x => x.Name.ToLower().Contains(query.Keyword.ToLower()))
+                .Select(x => new TagItem()
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    UrlSlug = x.UrlSlug,
+                    Description = x.Description,
+                    PostCount = x.Posts.Count(p => p.Published)
+                });
+
+            return await tagQuery.ToPagedListAsync(pagingParams, cancellationToken);
+        }
+
+        public async Task<IPagedList<AuthorItem>> GetPagedAuthorsAsync(
+            PostQuery query,
+            IPagingParams pagingParams,
+            CancellationToken cancellationToken = default)
+        {
+            var tagQuery = _context.Set<Author>()
+                .Where(x => x.FullName.ToLower().Contains(query.Keyword.ToLower()))
+                .Select(x => new AuthorItem()
+                {
+                    Id = x.Id,
+                    FullName = x.FullName,
+                    UrlSlug = x.UrlSlug,
+                    ImageUrl = x.ImageUrl,
+                    JoinedDate = x.JoinedDate,
+                    Email = x.Email,
+                    Notes = x.Notes,
                     PostCount = x.Posts.Count(p => p.Published)
                 });
 
@@ -314,12 +383,45 @@ namespace TatBlog.Services.Blogs
             return category;
         }
 
+        public async Task<Author> CreateOrUpdateAuthorAsync(
+            Author author, CancellationToken cancellationToken = default)
+        {
+            if (author.Id > 0)
+            {
+                _context.Set<Author>().Update(author);
+            }
+            else
+            {
+                _context.Set<Author>().Add(author);
+            }
+
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return author;
+        }
+
         public async Task<bool> IsCategorySlugExistedAsync(
             int categoryId, string categorySlug,
             CancellationToken cancellationToken = default)
         {
             return await _context.Set<Category>()
                 .AnyAsync(x => x.Id != categoryId && x.UrlSlug == categorySlug, cancellationToken);
+        }
+
+        public async Task<bool> IsAuthorSlugExistedAsync(
+            int authorId, string authorSlug,
+            CancellationToken cancellationToken = default)
+        {
+            return await _context.Set<Author>()
+                .AnyAsync(x => x.Id != authorId && x.UrlSlug == authorSlug, cancellationToken);
+        }
+
+        public async Task<bool> IsTagSlugExistedAsync(
+            int tagId, string tagSlug,
+            CancellationToken cancellationToken = default)
+        {
+            return await _context.Set<Tag>()
+                .AnyAsync(x => x.Id != tagId && x.UrlSlug == tagSlug, cancellationToken);
         }
 
         public async Task<bool> DeleteCategoryAsync(
@@ -333,7 +435,7 @@ namespace TatBlog.Services.Blogs
             var rowsCount = await _context.SaveChangesAsync(cancellationToken);
 
             return rowsCount > 0;
-        }        
+        }
 
         public async Task<Tag> GetTagAsync(
             string slug, CancellationToken cancellationToken = default)
@@ -579,11 +681,11 @@ namespace TatBlog.Services.Blogs
                 .WhereIf(condition.AuthorId > 0, x => x.AuthorId == condition.AuthorId)
                 .WhereIf(!string.IsNullOrWhiteSpace(condition.AuthorSlug), x => x.Author.UrlSlug == condition.AuthorSlug)
                 .WhereIf(!string.IsNullOrWhiteSpace(condition.TagSlug), x => x.Tags.Any(t => t.UrlSlug == condition.TagSlug))
-                .WhereIf(!string.IsNullOrWhiteSpace(condition.Keyword), x => x.Title.Contains(condition.Keyword) ||
-                                                                             x.ShortDescription.Contains(condition.Keyword) ||
-                                                                             x.Description.Contains(condition.Keyword) ||
-                                                                             x.Category.Name.Contains(condition.Keyword) ||
-                                                                             x.Tags.Any(t => t.Name.Contains(condition.Keyword)))
+                .WhereIf(!string.IsNullOrWhiteSpace(condition.Keyword), x => x.Title.ToLower().Contains(condition.Keyword.ToLower()) ||
+                                                                             x.ShortDescription.ToLower().Contains(condition.Keyword.ToLower()) ||
+                                                                             x.Description.ToLower().Contains(condition.Keyword.ToLower()) ||
+                                                                             x.Category.Name.ToLower().Contains(condition.Keyword.ToLower()) ||
+                                                                             x.Tags.Any(t => t.Name.ToLower().Contains(condition.Keyword.ToLower())))
                 .WhereIf(condition.Year > 0, x => x.PostedDate.Year == condition.Year)
                 .WhereIf(condition.Month > 0, x => x.PostedDate.Month == condition.Month)
                 .WhereIf(!string.IsNullOrWhiteSpace(condition.TitleSlug), x => x.UrlSlug == condition.TitleSlug);
@@ -621,7 +723,20 @@ namespace TatBlog.Services.Blogs
 
             return rowsCount > 0;
         }
-        
+
+        public async Task<bool> DeleteAuthorAsync(
+            int authorId, CancellationToken cancellationToken = default)
+        {
+            var author = await _context.Set<Author>().FindAsync(authorId);
+
+            if (author is null) return false;
+
+            _context.Set<Author>().Remove(author);
+            var rowsCount = await _context.SaveChangesAsync(cancellationToken);
+
+            return rowsCount > 0;
+        }
+
         public async Task<bool> UpdatePostStatusAsync(
             int postId, CancellationToken cancellationToken = default)
         {
@@ -634,6 +749,33 @@ namespace TatBlog.Services.Blogs
             var rowsCount = await _context.SaveChangesAsync(cancellationToken);
 
             return rowsCount > 0;
+        }
+
+        public async Task<bool> UpdateCategoryStatusAsync(
+            int categoryId, CancellationToken cancellationToken = default)
+        {
+            var category = await _context.Set<Category>().FindAsync(categoryId);
+
+            if (category is null) return false;
+
+            category.ShowOnMenu = !(category.ShowOnMenu);
+
+            var rowsCount = await _context.SaveChangesAsync(cancellationToken);
+
+            return rowsCount > 0;
+        }
+
+        public async Task<IList<Post>> GetNearPosts(int month, CancellationToken cancellationToken = default)
+        {
+            DateTime now = DateTime.Now;
+
+            return _context
+                .Set<Post>()
+                .AsParallel()
+                .AsEnumerable()
+                .Where(c => ((now - c.PostedDate).TotalDays) < (month * 30))
+                .OrderByDescending(c => c.PostedDate)
+                .ToList();
         }
     }
 }

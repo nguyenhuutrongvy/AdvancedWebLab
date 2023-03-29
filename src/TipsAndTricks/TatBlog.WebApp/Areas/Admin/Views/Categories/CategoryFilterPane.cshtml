@@ -1,7 +1,7 @@
 ﻿@model TatBlog.WebApp.Areas.Admin.Models.CategoryFilterModel
 
 <form asp-area="Admin"
-      asp-controller="Posts"
+      asp-controller="Categories"
       asp-action="Index"
       method="get"
       class="row gy-2 gx-3 align-items-center">
@@ -14,15 +14,11 @@
     </div>
 
     <div class="col-auto">
-        <button type="submit" class="btn btn-primary" asp-area="Admin" asp-controller="Posts" asp-action="Filtrate">Tìm/ Lọc</button>
+        <button type="submit" class="btn btn-primary" asp-area="Admin" asp-controller="Categories" asp-action="Filtrate">Tìm</button>
 
         <a asp-area="Admin"
-           asp-controller="Posts"
+           asp-controller="Categories"
            asp-action="Edit"
            class="btn btn-success">Thêm mới</a>
-    </div>
-
-    <div class="col-auto">
-        <button type="submit" class="btn btn-outline-warning" asp-area="Admin" asp-controller="Posts" asp-action="ClearFields">Bỏ lọc</button>
     </div>
 </form>

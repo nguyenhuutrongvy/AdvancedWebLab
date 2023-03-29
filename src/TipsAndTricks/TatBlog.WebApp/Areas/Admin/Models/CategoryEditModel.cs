@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 
 namespace TatBlog.WebApp.Areas.Admin.Models
 {
@@ -12,7 +11,8 @@ namespace TatBlog.WebApp.Areas.Admin.Models
         [DisplayName("Tên")]
         public string Name { get; set; }
 
-        [DisplayName("URL Slug")]
+        [DisplayName("Slug")]
+        [Remote("VerifyCategorySlug", "Categories", "Admin", HttpMethod = "POST", AdditionalFields = "Id")]
         public string UrlSlug { get; set; }
 
         [DisplayName("Nội dung")]
@@ -20,7 +20,5 @@ namespace TatBlog.WebApp.Areas.Admin.Models
         
         [DisplayName("Hiển thị")]
         public bool ShowOnMenu { get; set; }
-
-        public IEnumerable<SelectListItem> CategoryList { get; set; }
     }
 }

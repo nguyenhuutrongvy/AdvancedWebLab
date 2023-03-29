@@ -15,19 +15,21 @@
             <div class="col-md-8">
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a asp-controller="Blog" asp-action="Post" asp-route-slug="@Model.UrlSlug">@Model.Title</a>
+                        <a asp-area="" asp-controller="Blog" asp-action="DetailPost" asp-route-slug="@Model.UrlSlug">
+                            @Model.Title
+                        </a>
                     </h5>
                     <p class="card-text">
                         <small class="text-muted">
                             Tác giả
                         </small>
-                        <a asp-controller="Blog" asp-action="Author" asp-route-slug="@Model.Author.UrlSlug">
+                        <a asp-area="" asp-controller="Blog" asp-action="Author" asp-route-slug="@Model.Author.UrlSlug">
                             <span class="text-primary">@Model.Author.FullName</span>
                         </a>
                         <small class="text-muted">
                             Chủ đề
                         </small>
-                        <a asp-controller="Blog" asp-action="Category" asp-route-slug="@Model.Category.UrlSlug">
+                        <a asp-area="" asp-controller="Blog" asp-action="Category" asp-route-slug="@Model.Category.UrlSlug">
                             <span class="text-primary">@Model.Category.Name</span>
                         </a>
                     </p>
@@ -38,8 +40,9 @@
                         <partial name="_TagList" model="@Model.Tags" />
                     </div>
                     <div class="text-end">
-                        <a asp-controller="Blog"
-                           asp-action="Post"
+                        <a asp-area=""
+                           asp-controller="Blog"
+                           asp-action="DetailPost"
                            asp-route-year="@Model.PostedDate.Year"
                            asp-route-month="@Model.PostedDate.Month"
                            asp-route-day="@Model.PostedDate.Day"

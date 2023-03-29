@@ -39,65 +39,91 @@ namespace TatBlog.WebApp.Areas.Admin.Controllers
                 SortOrder = "ASC"
             });
 
-            await PopulateCategoryFilterModelAsync(model);
+            return View(model);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id = 0)
+        {
+            var category = id > 0 ? await _blogRepository.GetCategoryById(id) : null;
+
+            var model = category == null ? new CategoryEditModel() : _mapper.Map<CategoryEditModel>(category);
 
             return View(model);
         }
 
-        private async Task PopulateCategoryFilterModelAsync(CategoryFilterModel model)
+        [HttpPost]
+        public async Task<IActionResult> Edit(CategoryEditModel model)
         {
-            var categories = await _blogRepository.GetCategoriesAsync();
+            var validationResult = await _validator.ValidateAsync(model);
 
-            model.CategoryList = categories.Select(c => new SelectListItem()
+            if (!validationResult.IsValid)
             {
-                Text = c.Name,
-                Value = c.Id.ToString()
-            });
+                validationResult.AddToModelState(ModelState);
+            }
+
+            if (!ModelState.IsValid)
+            {
+                //return View(model);
+            }
+
+            Category category = await _blogRepository.GetCategoryById(model.Id);
+
+            category = _mapper.Map(model, category);
+
+            await _blogRepository.CreateOrUpdateCategoryAsync(category);
+
+            return RedirectToAction(nameof(Index));
         }
-        private async Task PopulateCategoryEditModelAsync(CategoryEditModel model)
+
+        public async Task<IActionResult> Delete(int id = 0)
         {
-            var categories = await _blogRepository.GetCategoriesAsync();
+            bool result = await _blogRepository.DeleteCategoryAsync(id);
 
-            model.CategoryList = categories.Select(c => new SelectListItem()
+            if (result)
             {
-                Text = c.Name,
-                Value = c.Id.ToString()
-            });
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View();
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> Edit(int id = 0)
-        //{
-        //    var post = id > 0 ? await _blogRepository.GetCategoryById(id) : null;
+        [HttpPost]
+        public async Task<IActionResult> VerifyCategorySlug(int id, string urlSlug)
+        {
+            var slugExisted = await _blogRepository.IsCategorySlugExistedAsync(id, urlSlug);
 
-        //    var model = post == null ? new CategoryEditModel() : _mapper.Map<CategoryEditModel>(post);
+            return slugExisted ? Json($"Slug '{urlSlug}' đã được sử dụng") : Json(true);
+        }
 
-        //    await PopulateCategoryEditModelAsync(model);
+        public async Task<IActionResult> Filtrate(CategoryFilterModel model, [FromQuery(Name = "p")] int pageNumber = 1, [FromQuery(Name = "ps")] int pageSize = 5)
+        {
+            if (model.Keyword == null)
+            {
+                model.Keyword = "";
+            }
 
-        //    return View(model);
-        //}
+            var postQuery = _mapper.Map<PostQuery>(model);
 
-        //[HttpPost]
-        //public async Task<IActionResult> Edit(CategoryEditModel model)
-        //{
-        //    var validationResult = await _validator.ValidateAsync(model);
+            ViewBag.CategoriesList = await _blogRepository.GetPagedCategoriesAsync(postQuery, new PagingParams
+            {
+                PageSize = pageSize,
+                PageNumber = pageNumber
+            });
 
-        //    if (!validationResult.IsValid)
-        //    {
-        //        validationResult.AddToModelState(ModelState);
-        //    }
+            return View("Index", model);
+        }
 
-        //    if (!ModelState.IsValid)
-        //    {
-        //        await PopulateCategoryEditModelAsync(model);
-        //        //return View(model);
-        //    }
+        public async Task<IActionResult> UpdateType(int id = 0)
+        {
+            bool result = await _blogRepository.UpdateCategoryStatusAsync(id);
 
-        //    //Category category = await _blogRepository.GetCategoryById(model.Id);
+            if (result)
+            {
+                return RedirectToAction(nameof(Index));
+            }
 
-        //    //await _blogRepository.CreateOrUpdateCategoryAsync(category);
-
-        //    return RedirectToAction(nameof(Index));
-        //}
+            return View("Index");
+        }
     }
 }

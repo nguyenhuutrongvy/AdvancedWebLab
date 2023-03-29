@@ -9,6 +9,26 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\ava_1.png",
+      "PackagePath": "staticwebassets\\images\\ava_1.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\ava_2.jpg",
+      "PackagePath": "staticwebassets\\images\\ava_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\ava_3.png",
+      "PackagePath": "staticwebassets\\images\\ava_3.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\ava_4.png",
+      "PackagePath": "staticwebassets\\images\\ava_4.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\ava_5.png",
+      "PackagePath": "staticwebassets\\images\\ava_5.png"
+    },
+    {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\images\\image_1.png",
       "PackagePath": "staticwebassets\\images\\image_1.png"
     },
@@ -853,12 +873,28 @@
       "PackagePath": "staticwebassets\\uploads\\pictures\\22688e6181514255af572d4ba19579c5.png"
     },
     {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\25703d2e45ee4c52927b587104806017.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\25703d2e45ee4c52927b587104806017.png"
+    },
+    {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\4443584550aa4e3a91a250d27172ce29.png",
       "PackagePath": "staticwebassets\\uploads\\pictures\\4443584550aa4e3a91a250d27172ce29.png"
     },
     {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\4a6ac0f29e274e14a1e4a17915f7b0ee.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\4a6ac0f29e274e14a1e4a17915f7b0ee.jpg"
+    },
+    {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\6185c1946a40464097c990f00ab543df.png",
       "PackagePath": "staticwebassets\\uploads\\pictures\\6185c1946a40464097c990f00ab543df.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\6514207110114c9eae5777c3fee272c6.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\6514207110114c9eae5777c3fee272c6.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\661160ca32794e8583a50b756a8c99a1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\661160ca32794e8583a50b756a8c99a1.jpg"
     },
     {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\684d662f83934c9381af0b10df20f90b.png",
@@ -869,8 +905,36 @@
       "PackagePath": "staticwebassets\\uploads\\pictures\\783cd1ad47344d97bc385d95d36d6d90.png"
     },
     {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\7ebb263bcb514fd89f441a71b79fb805.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\7ebb263bcb514fd89f441a71b79fb805.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\918092dd8be3471db2f12246af42dc99.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\918092dd8be3471db2f12246af42dc99.png"
+    },
+    {
       "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\96d7da05efd642dab6213552d3ba012f.png",
       "PackagePath": "staticwebassets\\uploads\\pictures\\96d7da05efd642dab6213552d3ba012f.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\b14a9b42be2c4dbbb8b19e9e864a8fb4.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\b14a9b42be2c4dbbb8b19e9e864a8fb4.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\bbff68d621764b1cbb3cae9a1f869cf4.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\bbff68d621764b1cbb3cae9a1f869cf4.png"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\c4c92712d1bb442f845ba5b81705e385.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\c4c92712d1bb442f845ba5b81705e385.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\cc0b44c14b954c508310a7f6b1e98015.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\cc0b44c14b954c508310a7f6b1e98015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WebApp\\wwwroot\\uploads\\pictures\\f75901f07d4b455288be9d10edc957c0.png",
+      "PackagePath": "staticwebassets\\uploads\\pictures\\f75901f07d4b455288be9d10edc957c0.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TatBlog.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",

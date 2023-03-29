@@ -6,8 +6,6 @@ namespace TatBlog.WebApp.Areas.Admin.Models
     public class CategoryFilterModel
     {
         [DisplayName("Từ khóa")]
-        public string Keyword { get; set; }
-
-        public IEnumerable<SelectListItem> CategoryList { get; set; }
+        public string Keyword { get; set; } = string.Empty;
     }
 }
