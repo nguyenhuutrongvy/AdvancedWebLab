@@ -25,6 +25,14 @@ namespace TatBlog.WebApi.Extensions
 
             builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+            builder.Services.AddScoped<IPostRepository, PostRepository>();
+
+            builder.Services.AddScoped<ITagRepository, TagRepository>();
+
+            builder.Services.AddScoped<ICommonRepository, CommonRepository>();
+
             return builder;
         }
 

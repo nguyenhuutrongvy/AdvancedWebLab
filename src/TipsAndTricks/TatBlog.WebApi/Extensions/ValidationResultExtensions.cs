@@ -36,8 +36,7 @@ namespace TatBlog.WebApi.Extensions
                 .GroupBy(e => e.PropertyName)
                 .ToDictionary(
                 g => g.Key,
-                g => g.Select(e => e.ErrorMessage).ToList()
-                );
+                g => g.Select(e => e.ErrorMessage).ToList());
         }
     }
 }

@@ -107,6 +107,10 @@ try
 
         // Configure API endpoints
         app.MapAuthorEndpoints();
+        app.MapCategoryEndpoints();
+        app.MapPostEndpoints();
+        app.MapTagEndpoints();
+        app.MapCommonEndpoints();
 
         app.Run();
     }

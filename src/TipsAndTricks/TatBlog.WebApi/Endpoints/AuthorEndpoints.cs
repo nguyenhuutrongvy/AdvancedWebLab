@@ -8,7 +8,6 @@ using TatBlog.Core.DTO;
 using TatBlog.Core.Entities;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Media;
-using TatBlog.WebApi.Extensions;
 using TatBlog.WebApi.Filters;
 using TatBlog.WebApi.Models;
 
@@ -29,7 +28,11 @@ namespace TatBlog.WebApi.Endpoints
                 .Produces<AuthorItem>()
                 .Produces(404);
 
-            routeGroupBuilder.MapGet("/{slug:regex(^[a-z0-9_-]+$)}/posts", GetPostByAuthorSlug)
+            routeGroupBuilder.MapGet("/best/{amount:int}", GetBestAuthors)
+                .WithName("GetBestAuthors")
+                .Produces<PaginationResult<AuthorItem>>();
+
+            routeGroupBuilder.MapGet("/{slug:regex(^[a-z0-9_-]+$)}/authors", GetPostByAuthorSlug)
                 .WithName("GetPostsByAuthorSlug")
                 .Produces<PaginationResult<PostDto>>();
 
@@ -76,6 +79,15 @@ namespace TatBlog.WebApi.Endpoints
             return author == null ? Results.NotFound($"Không tìm thấy tác giả có mã số {id}") : Results.Ok(mapper.Map<AuthorItem>(author));
         }
 
+        private static async Task<IResult> GetBestAuthors(int amount, [AsParameters] AuthorFilterModel model, IAuthorRepository authorRepository)
+        {
+            var authorsList = await authorRepository.GetPagedBestAuthorsAsync(model, amount);
+
+            var paginationResult = new PaginationResult<AuthorItem>(authorsList);
+
+            return Results.Ok(paginationResult);
+        }
+
         private static async Task<IResult> GetPostsByAuthorId(int id, [AsParameters] PagingModel pagingModel, IBlogRepository blogRepository)
         {
             var postQuery = new PostQuery()
@@ -84,9 +96,9 @@ namespace TatBlog.WebApi.Endpoints
                 PublishedOnly = true
             };
 
-            var postsList = await blogRepository.GetPagedPostsAsync(postQuery, pagingModel, posts => posts.ProjectToType<PostDto>());
+            var authorsList = await blogRepository.GetPagedPostsAsync(postQuery, pagingModel, authors => authors.ProjectToType<PostDto>());
 
-            var paginationResult = new PaginationResult<PostDto>(postsList);
+            var paginationResult = new PaginationResult<PostDto>(authorsList);
 
             return Results.Ok(paginationResult);
         }
@@ -99,9 +111,9 @@ namespace TatBlog.WebApi.Endpoints
                 PublishedOnly = true
             };
 
-            var postsList = await blogRepository.GetPagedPostsAsync(postQuery, pagingModel, posts => posts.ProjectToType<PostDto>());
+            var authorsList = await blogRepository.GetPagedPostsAsync(postQuery, pagingModel, authors => authors.ProjectToType<PostDto>());
 
-            var paginationResult = new PaginationResult<PostDto>(postsList);
+            var paginationResult = new PaginationResult<PostDto>(authorsList);
 
             return Results.Ok(paginationResult);
         }

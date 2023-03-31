@@ -41,5 +41,11 @@ namespace TatBlog.Core.Constants
         public int TagId { get; set; }
 
         public string PostSlug { get; set; }
+
+        public string TagName { get; set; }
+
+        public string CategoryName { get; set; }
+
+        public string AuthorName { get; set; }
     }
 }

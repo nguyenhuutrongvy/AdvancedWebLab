@@ -24,6 +24,8 @@ namespace TatBlog.WebApi.Mapsters
             config.NewConfig<Post, PostDto>();
 
             config.NewConfig<Post, PostDetail>();
+
+            config.NewConfig<PostEditModel, Post>();
         }
     }
 }

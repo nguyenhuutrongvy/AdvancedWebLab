@@ -21,7 +21,7 @@ namespace TatBlog.Core.Entities
         // Đánh dấu chuyên mục được hiển thị trên menu
         public bool ShowOnMenu { get; set; }
 
-        // Danh sách các bài viết thuộc chuyên mụcs
+        // Danh sách các bài viết thuộc chuyên mục
         public IList<Post> Posts { get; set; }
 
         public Category()

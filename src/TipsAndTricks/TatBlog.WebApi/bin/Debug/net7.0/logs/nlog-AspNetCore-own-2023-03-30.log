@@ -1,0 +1,706 @@
+2023-03-30 16:01:08.4127|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 16:01:09.3725|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 16:01:09.3725|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 16:01:09.3725|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 16:01:09.3725|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 16:01:09.3725|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 17:37:53.5942|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 17:37:53.9677|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 17:37:53.9677|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 17:37:53.9677|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 17:37:53.9677|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 17:37:53.9677|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 17:52:01.8297|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 17:52:02.2436|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 17:52:02.2491|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 17:52:02.2491|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 17:52:02.2491|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 17:52:02.2491|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 18:23:44.7769|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 18:23:45.1758|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:23:45.1758|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:23:45.1758|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:23:45.1758|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:23:45.1758|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 18:32:32.9347|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 18:32:33.9967|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:32:34.0072|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:32:34.0072|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:32:34.0072|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:32:34.0072|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 18:36:20.7101|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 18:36:22.1963|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:36:22.2047|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:36:22.2047|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:36:22.2047|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:36:22.2047|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 18:37:53.8257|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 18:37:54.1077|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:37:54.1077|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 18:37:54.1077|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:37:54.1077|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 18:37:54.1077|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:09:11.6985|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:09:13.5667|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:09:13.5772|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:09:13.5772|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:09:13.5772|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:09:13.5772|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:09:14.5082|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:09:14.9700|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:10:22.0355|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:10:23.6689|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:10:23.6756|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:10:23.6756|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:10:23.6756|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:10:23.6756|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:14:45.5574|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:14:45.8392|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:14:45.8392|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:14:45.8392|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:14:45.8392|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:14:45.8392|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:20:42.4641|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:20:42.8013|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:20:42.8013|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:20:42.8013|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:20:42.8013|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:20:42.8013|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:21:32.2155|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:21:32.5351|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:21:32.5351|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:21:32.5442|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:21:32.5442|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:21:32.5442|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:22:20.2864|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:22:20.5938|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:22:20.5991|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:22:20.5991|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:22:20.5991|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:22:20.5991|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:23:39.0648|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:23:39.3842|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:23:39.3895|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:23:39.3895|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:23:39.3895|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:23:39.3895|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:23:40.1028|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:23:40.3890|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:28:08.5139|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:28:08.8840|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:28:08.8898|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:28:08.8898|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:28:08.8898|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:28:08.8898|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:28:09.3906|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:28:09.6419|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:28:24.5778|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 19:28:26.1740|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:28:26.1740|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 19:28:26.1740|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:28:26.1740|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 19:28:26.1740|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 19:28:27.7364|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 19:28:28.1076|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 20:59:27.7795|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 20:59:28.8481|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 20:59:28.8481|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 20:59:28.8571|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 20:59:28.8571|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 20:59:28.8571|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 20:59:30.7792|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 20:59:31.8104|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+authorRepository    | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:01:45.6078|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:01:46.8268|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:01:46.8268|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:01:46.8268|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:01:46.8268|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:01:46.8268|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:01:47.5878|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+categoryRepository  | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:01:47.9449|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+categoryRepository  | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:05:13.8477|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:05:15.4444|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:05:15.4444|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:05:15.4444|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:05:15.4444|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:05:15.4444|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:05:16.6010|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+categoryRepository  | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:05:17.0520|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+categoryRepository  | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:14:29.7379|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:14:30.8789|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:14:30.8789|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:14:30.8789|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:14:30.8789|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:14:30.8789|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:14:31.9721|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+categoryRepository  | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/swagger/index.html|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:14:32.4009|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Body was inferred but the method does not allow inferred body parameters.
+Below is the list of parameters that we found: 
+
+Parameter           | Source                        
+---------------------------------------------------------------------------------
+Name                | Query String (Inferred)
+PageSize            | Query String (Inferred)
+PageNumber          | Query String (Inferred)
+SortColumn          | Query String (Inferred)
+SortOrder           | Query String (Inferred)
+model               | As Parameter (Attribute)
+categoryRepository  | Body (Inferred)
+
+
+Did you mean to register the "Body (Inferred)" parameter(s) as a Service or apply the [FromServices] or [FromBody] attribute?
+
+
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArguments(ParameterInfo[] parameters, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.CreateArgumentsAndInferMetadata(MethodInfo methodInfo, RequestDelegateFactoryContext factoryContext)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.InferMetadata(MethodInfo methodInfo, RequestDelegateFactoryOptions options)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.CreateRouteEndpointBuilder(RouteEntry entry, RoutePattern groupPrefix, IReadOnlyList`1 groupConventions, IReadOnlyList`1 groupFinallyConventions)
+   at Microsoft.AspNetCore.Routing.RouteEndpointDataSource.GetGroupedEndpoints(RouteGroupContext context)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.GetGroupedEndpointsWithNullablePrefix(RoutePattern prefix, IReadOnlyList`1 conventions, IReadOnlyList`1 finallyConventions, IServiceProvider applicationServices)
+   at Microsoft.AspNetCore.Routing.RouteGroupBuilder.GroupEndpointDataSource.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.CreateEndpointsUnsynchronized()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.EnsureEndpointsInitialized()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/favicon.ico|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-03-30 21:17:33.0077|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:17:34.4279|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:17:34.4279|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:17:34.4279|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:17:34.4279|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:17:34.4279|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:28:21.3623|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:28:21.6650|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:28:21.6715|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:28:21.6715|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:28:21.6715|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:28:21.6715|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:30:35.7233|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:30:36.1728|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:30:36.1728|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:30:36.1728|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:30:36.1854|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:30:36.1854|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:31:30.9104|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:31:32.4199|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:31:32.4199|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:31:32.4199|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:31:32.4199|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:31:32.4199|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 21:32:19.0695|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 21:32:20.5785|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:32:20.5785|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 21:32:20.5785|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:32:20.5785|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 21:32:20.5785|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 22:17:43.0248|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 22:17:43.4178|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 22:17:43.4237|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 22:17:43.4237|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 22:17:43.4237|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 22:17:43.4237|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-03-30 22:18:31.5970|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-03-30 22:18:31.8719|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 22:18:31.8765|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-03-30 22:18:31.8765|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 22:18:31.8765|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-03-30 22:18:31.8765|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
