@@ -20,12 +20,12 @@ public interface ICategoryRepository
 	Task<IList<CategoryItem>> GetCategoriesAsync(
 		CancellationToken cancellationToken = default);
 
-	Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(
-		IPagingParams pagingParams,
+	Task<IList<CategoryItem>> GetCategoriesAsync(
 		string name = null,
 		CancellationToken cancellationToken = default);
 
-	Task<IPagedList<T>> GetPagedCategoriesAsync<T>(
+
+    Task<IPagedList<T>> GetPagedCategoriesAsync<T>(
 		Func<IQueryable<Category>, IQueryable<T>> mapper,
 		IPagingParams pagingParams,
 		string name = null,

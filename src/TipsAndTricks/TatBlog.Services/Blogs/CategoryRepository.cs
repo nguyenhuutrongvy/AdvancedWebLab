@@ -71,15 +71,14 @@ public class CategoryRepository : ICategoryRepository
 			.ToListAsync(cancellationToken);
 	}
 
-	public async Task<IPagedList<CategoryItem>> GetPagedCategoriesAsync(
-		IPagingParams pagingParams,
+	public async Task<IList<CategoryItem>> GetCategoriesAsync(
 		string name = null,
 		CancellationToken cancellationToken = default)
 	{
 		return await _context.Set<Category>()
 			.AsNoTracking()
 			.WhereIf(!string.IsNullOrWhiteSpace(name), 
-				x => x.Name.Contains(name))
+				x => x.Name.ToLower().Contains(name.ToLower()))
 			.Select(a => new CategoryItem()
 			{
                 Id = a.Id,
@@ -89,7 +88,7 @@ public class CategoryRepository : ICategoryRepository
                 ShowOnMenu = a.ShowOnMenu,
                 PostCount = a.Posts.Count(p => p.Published)
             })
-			.ToPagedListAsync(pagingParams, cancellationToken);
+			.ToListAsync(cancellationToken);
 	}
 
 	public async Task<IPagedList<T>> GetPagedCategoriesAsync<T>(

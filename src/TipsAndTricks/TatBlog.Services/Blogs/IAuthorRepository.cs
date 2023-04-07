@@ -31,7 +31,7 @@ public interface IAuthorRepository
 		string name = null,
 		CancellationToken cancellationToken = default);
 
-	Task<IPagedList<AuthorItem>> GetPagedBestAuthorsAsync(IPagingParams pagingParams, int amout = 1, CancellationToken cancellationToken = default);
+	Task<IList<AuthorItem>> GetBestAuthorsAsync(int amount = 1, CancellationToken cancellationToken = default);
 
 
     Task<bool> AddOrUpdateAsync(

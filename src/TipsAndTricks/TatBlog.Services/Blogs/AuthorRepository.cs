@@ -111,7 +111,7 @@ public class AuthorRepository : IAuthorRepository
 			.ToPagedListAsync(pagingParams, cancellationToken);
 	}
 
-    public async Task<IPagedList<AuthorItem>> GetPagedBestAuthorsAsync(IPagingParams pagingParams, int amount = 1, CancellationToken cancellationToken = default)
+    public async Task<IList<AuthorItem>> GetBestAuthorsAsync(int amount = 1, CancellationToken cancellationToken = default)
     {
         return await _context.Set<Author>()
             .AsNoTracking()
@@ -127,7 +127,7 @@ public class AuthorRepository : IAuthorRepository
                 UrlSlug = a.UrlSlug,
                 PostCount = a.Posts.Count(p => p.Published)
             })
-            .ToPagedListAsync(pagingParams, cancellationToken);
+            .ToListAsync(cancellationToken);
     }
 
     public async Task<bool> AddOrUpdateAsync(

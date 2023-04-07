@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
-using TatBlog.Core.Contracts;
 using TatBlog.Core.Entities;
 using TatBlog.Data.Contexts;
-using TatBlog.Services.Extensions;
 
 namespace TatBlog.Services.Blogs;
 

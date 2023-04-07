@@ -18,11 +18,13 @@ public interface IPostRepository
 
 	Task<Post> GetCachedPostByIdAsync(int postId);
 
-	Task<IPagedList<PostItem>> GetPagedBestPostsAsync(int amount = 1, CancellationToken cancellationToken = default);
+	Task<IList<PostItem>> GetBestPostsAsync(int amount = 1, CancellationToken cancellationToken = default);
 
-	Task<IPagedList<PostItem>> GetPagedRandomPostsAsync(int amount = 1, CancellationToken cancellationToken = default);
 
-	Task<IPagedList<PostItem>> GetPagedAchivePostsAsync(int amount = 1, CancellationToken cancellationToken = default);
+	Task<IList<PostItem>> GetRandomPostsAsync(int amount = 1, CancellationToken cancellationToken = default);
+
+
+    Task<IPagedList<PostItem>> GetPagedAchivePostsAsync(int amount = 1, CancellationToken cancellationToken = default);
 
     Task<IList<PostItem>> GetPostsAsync(
 		CancellationToken cancellationToken = default);

@@ -20,7 +20,7 @@ namespace TatBlog.WebApi.Endpoints
 
             routeGroupBuilder.MapGet("/", GetTags)
                 .WithName("GetTags")
-                .Produces<PaginationResult<TagItem>>();
+                .Produces<IList<TagItem>>();
 
             routeGroupBuilder.MapGet("/{id:int}", GetTagDetails)
                 .WithName("GetTagById")
@@ -53,13 +53,13 @@ namespace TatBlog.WebApi.Endpoints
             return app;
         }
 
-        private static async Task<IResult> GetTags([AsParameters] TagFilterModel model, ITagRepository categoryRepository)
+        private static async Task<IResult> GetTags(ITagRepository categoryRepository)
         {
-            var tagsList = await categoryRepository.GetPagedTagsAsync(model, model.Name);
+            var tagsList = await categoryRepository.GetTagsAsync();
 
-            var paginationResult = new PaginationResult<TagItem>(tagsList);
+            //var paginationResult = new PaginationResult<TagItem>(tagsList);
 
-            return Results.Ok(paginationResult);
+            return Results.Ok(ApiResponse.Success(tagsList));
         }
 
         private static async Task<IResult> GetTagDetails(int id, ITagRepository categoryRepository, IMapper mapper)

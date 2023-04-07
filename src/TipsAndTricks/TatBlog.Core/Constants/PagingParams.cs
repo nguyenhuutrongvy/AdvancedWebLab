@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TatBlog.Core.Contracts;
 
-namespace TatBlog.WinApp
+namespace TatBlog.Core
 {
     // Đối tượng chứa tham số đầu vào cho việc phân trang
     public class PagingParams : IPagingParams

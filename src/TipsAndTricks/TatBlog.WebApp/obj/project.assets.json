@@ -3766,21 +3766,6 @@
         "runtime": {
           "bin/placeholder/TatBlog.Services.dll": {}
         }
-      },
-      "TatBlog.WinApp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "TatBlog.Core": "1.0.0",
-          "TatBlog.Data": "1.0.0",
-          "TatBlog.Services": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TatBlog.WinApp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TatBlog.WinApp.dll": {}
-        }
       }
     }
   },
@@ -10826,11 +10811,6 @@
       "type": "project",
       "path": "../TatBlog.Services/TatBlog.Services.csproj",
       "msbuildProject": "../TatBlog.Services/TatBlog.Services.csproj"
-    },
-    "TatBlog.WinApp/1.0.0": {
-      "type": "project",
-      "path": "../TatBlog.WinApp/TatBlog.WinApp.csproj",
-      "msbuildProject": "../TatBlog.WinApp/TatBlog.WinApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10842,8 +10822,7 @@
       "NLog.Web.AspNetCore >= 5.2.2",
       "TatBlog.Core >= 1.0.0",
       "TatBlog.Data >= 1.0.0",
-      "TatBlog.Services >= 1.0.0",
-      "TatBlog.WinApp >= 1.0.0"
+      "TatBlog.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10881,9 +10860,6 @@
             },
             "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj": {
               "projectPath": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.Services\\TatBlog.Services.csproj"
-            },
-            "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj": {
-              "projectPath": "C:\\Users\\NHTV\\Desktop\\PhatTrienUngDungWebNangCao\\Lab\\Lab01\\TipsAndTricks\\TatBlog.WinApp\\TatBlog.WinApp.csproj"
             }
           }
         }

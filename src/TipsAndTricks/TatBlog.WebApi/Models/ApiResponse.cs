@@ -38,9 +38,11 @@ namespace TatBlog.WebApi.Models
 
         public static ApiResponse Fail(HttpStatusCode statusCode, params string[] errorMessages)
         {
-            if (errorMessages == null || errorMessages.Length == 0)
+            //if (errorMessages == null || errorMessages.Length == 0)
+            if (errorMessages is null or { Length: 0 })
             {
-                throw new ArgumentException(nameof(errorMessages));
+                //throw new ArgumentException(nameof(errorMessages));
+                throw new ArgumentNullException(nameof(errorMessages));
             }
 
             return new ApiResponse()

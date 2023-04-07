@@ -1,7 +1,6 @@
-﻿using Azure.Core;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
-using Microsoft.VisualBasic;
+using TatBlog.Core;
 using TatBlog.Core.Constants;
 using TatBlog.Core.Contracts;
 using TatBlog.Core.DTO;
@@ -9,7 +8,6 @@ using TatBlog.Core.Entities;
 using TatBlog.Data.Contexts;
 using TatBlog.Services.Extensions;
 using TatBlog.Services.Timing;
-using TatBlog.WinApp;
 
 namespace TatBlog.Services.Blogs;
 
@@ -59,7 +57,7 @@ public class PostRepository : IPostRepository
             });
     }
 
-    public async Task<IPagedList<PostItem>> GetPagedBestPostsAsync(int amount = 1, CancellationToken cancellationToken = default)
+    public async Task<IList<PostItem>> GetBestPostsAsync(int amount = 1, CancellationToken cancellationToken = default)
     {
         return await _context.Set<Post>()
             .AsNoTracking()
@@ -84,16 +82,10 @@ public class PostRepository : IPostRepository
                 Author = a.Author,
                 Tags = a.Tags
             })
-            .ToPagedListAsync(new PagingParams
-            {
-                PageSize = amount,
-                PageNumber = 1,
-                SortColumn = "Id",
-                SortOrder = "ASC"
-            }, cancellationToken);
+            .ToListAsync(cancellationToken);
     }
 
-    public async Task<IPagedList<PostItem>> GetPagedRandomPostsAsync(int amount = 1, CancellationToken cancellationToken = default)
+    public async Task<IList<PostItem>> GetRandomPostsAsync(int amount = 1, CancellationToken cancellationToken = default)
     {
         Random rand = new Random();
         int skipper = rand.Next(0, _context.Posts.Count());
@@ -122,13 +114,7 @@ public class PostRepository : IPostRepository
                 Author = a.Author,
                 Tags = a.Tags
             })
-            .ToPagedListAsync(new PagingParams
-            {
-                PageSize = amount,
-                PageNumber = 1,
-                SortColumn = "Id",
-                SortOrder = "ASC"
-            }, cancellationToken);
+            .ToListAsync(cancellationToken);
     }
 
     public async Task<IPagedList<PostItem>> GetPagedAchivePostsAsync(int month = 1, CancellationToken cancellationToken = default)
@@ -211,9 +197,9 @@ public class PostRepository : IPostRepository
             .Include(x => x.Author)
             .Include(x => x.Tags)
             .WhereIf(!string.IsNullOrWhiteSpace(query.Keyword), x => x.Title.ToLower().Contains(query.Keyword.ToLower()))
-            .WhereIf(!string.IsNullOrWhiteSpace(query.PostedYear.ToString()), x => x.PostedDate.Year == query.PostedYear)
+            /*.WhereIf(!string.IsNullOrWhiteSpace(query.PostedYear.ToString()), x => x.PostedDate.Year == query.PostedYear)
             .WhereIf(!string.IsNullOrWhiteSpace(query.PostedMonth.ToString()), x => x.PostedDate.Month == query.PostedMonth)
-            .WhereIf(!string.IsNullOrWhiteSpace(query.PostedDay.ToString()), x => x.PostedDate.Day == query.PostedDay)
+            .WhereIf(!string.IsNullOrWhiteSpace(query.PostedDay.ToString()), x => x.PostedDate.Day == query.PostedDay)*/
             .Select(a => new PostItem()
             {
                 Id = a.Id,

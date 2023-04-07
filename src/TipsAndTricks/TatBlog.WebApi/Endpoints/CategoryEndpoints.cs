@@ -20,7 +20,7 @@ namespace TatBlog.WebApi.Endpoints
 
             routeGroupBuilder.MapGet("/", GetCategories)
                 .WithName("GetCategories")
-                .Produces<PaginationResult<CategoryItem>>();
+                .Produces<ApiResponse<IList<CategoryItem>>>();
 
             routeGroupBuilder.MapGet("/{id:int}", GetCategoryDetails)
                 .WithName("GetCategoryById")
@@ -55,11 +55,11 @@ namespace TatBlog.WebApi.Endpoints
 
         private static async Task<IResult> GetCategories([AsParameters] CategoryFilterModel model, ICategoryRepository categoryRepository)
         {
-            var categoriesList = await categoryRepository.GetPagedCategoriesAsync(model, model.Name);
+            var categoriesList = await categoryRepository.GetCategoriesAsync(model.Name);
 
-            var paginationResult = new PaginationResult<CategoryItem>(categoriesList);
+            //var paginationResult = new PaginationResult<CategoryItem>(categoriesList);
 
-            return Results.Ok(paginationResult);
+            return Results.Ok(ApiResponse.Success(categoriesList));
         }
 
         private static async Task<IResult> GetCategoryDetails(int id, ICategoryRepository categoryRepository, IMapper mapper)
