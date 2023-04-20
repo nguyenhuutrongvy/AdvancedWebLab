@@ -841,3 +841,33 @@
 2023-04-07 23:11:06.8681 Info Shutdown() called. Logger closing...
 2023-04-07 23:11:06.8729 Info Closing old configuration.
 2023-04-07 23:11:06.8729 Info Logger has been closed down.
+2023-04-13 21:20:06.3359 Info Message Template Auto Format enabled
+2023-04-13 21:20:06.3435 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-13 21:20:06.3813 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-13 21:20:06.3813 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-04-13 21:20:06.3813 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-04-13 21:20:06.4052 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-04-13 21:20:07.2543 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-04-13 23:37:28.4977 Info Shutdown() called. Logger closing...
+2023-04-13 23:37:28.4977 Info Closing old configuration.
+2023-04-13 23:37:28.5119 Info Logger has been closed down.
+2023-04-14 20:34:38.4081 Info Message Template Auto Format enabled
+2023-04-14 20:34:38.4081 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-14 20:34:38.4486 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-14 20:34:38.4510 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-04-14 20:34:38.4510 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-04-14 20:34:38.4673 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-04-14 20:34:39.1964 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-04-15 00:18:04.9103 Info Shutdown() called. Logger closing...
+2023-04-15 00:18:04.9103 Info Closing old configuration.
+2023-04-15 00:18:04.9329 Info Logger has been closed down.
+2023-04-19 20:30:21.6591 Info Message Template Auto Format enabled
+2023-04-19 20:30:21.6680 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-19 20:30:21.7060 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-19 20:30:21.7097 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-04-19 20:30:21.7097 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-04-19 20:30:21.7269 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-04-19 20:30:22.6484 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi\bin\Debug\net7.0\NLog.config
+2023-04-19 22:13:52.6919 Info Shutdown() called. Logger closing...
+2023-04-19 22:13:52.6919 Info Closing old configuration.
+2023-04-19 22:13:52.7104 Info Logger has been closed down.

@@ -3,6 +3,7 @@ using TatBlog.Core.Contracts;
 using TatBlog.Core.DTO;
 using TatBlog.Core.Entities;
 using TatBlog.Data.Contexts;
+using TatBlog.Data.Seeders;
 using TatBlog.Services.Blogs;
 using TatBlog.Services.Extensions;
 using TatBlog.WinApp;
@@ -15,16 +16,16 @@ BlogRepository repo = new BlogRepository(context);
 
 #region P16_Exec
 
-//var posts = context.Posts.ToList();
-//var categories = context.Categories.ToList();
-//var authors = context.Authors.ToList();
+var posts = context.Posts.ToList();
+var categories = context.Categories.ToList();
+var authors = context.Authors.ToList();
 
-//WriteLine("{0,-4}{1,-45}{2,-20}{3,-20}", "ID", "Title", "Category", "Author");
+WriteLine("{0,-4}{1,-100}{2,-20}{3,-20}", "ID", "Title", "Category", "Author");
 
-//foreach (var post in posts)
-//{
-//    WriteLine("{0,-4}{1,-45}{2,-20}{3,-20}", post.Id, post.Title, categories.FirstOrDefault(x => x.Id == post.CategoryId).Name, authors.FirstOrDefault(x => x.Id == post.AuthorId).FullName);
-//}
+foreach (var post in posts)
+{
+    WriteLine("{0,-4}{1,-100}{2,-20}{3,-20}", post.Id, post.Title, categories.FirstOrDefault(x => x.Id == post.CategoryId).Name, authors.FirstOrDefault(x => x.Id == post.AuthorId).FullName);
+}
 
 #endregion
 
@@ -265,15 +266,15 @@ BlogRepository repo = new BlogRepository(context);
 
 #region 1-K
 
-var nearList = await repo.GetNearPosts(6);
+//var nearList = await repo.GetNearPosts(6);
 
-foreach (var post in nearList)
-{
-    WriteLine($"ID      : {post.Id}");
-    WriteLine($"Title   : {post.Title}");
-    WriteLine($"View    : {post.ViewCount}");
-    WriteLine($"Date    : {post.PostedDate:dd/MM/yyyy}");
-    WriteLine("".PadRight(80, '-'));
-}
+//foreach (var post in nearList)
+//{
+//    WriteLine($"ID      : {post.Id}");
+//    WriteLine($"Title   : {post.Title}");
+//    WriteLine($"View    : {post.ViewCount}");
+//    WriteLine($"Date    : {post.PostedDate:dd/MM/yyyy}");
+//    WriteLine("".PadRight(80, '-'));
+//}
 
 #endregion

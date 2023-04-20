@@ -1,0 +1,7 @@
+2023-04-13 21:20:06.4288|0|DEBUG|Program|init main |url: |action: |Program.<Main>$
+2023-04-13 21:20:07.4954|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7115 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-04-13 21:20:07.5027|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5134 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-04-13 21:20:07.5027|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-04-13 21:20:07.5027|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-04-13 21:20:07.5027|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\NHTV\Desktop\PhatTrienUngDungWebNangCao\Lab\Lab01\TipsAndTricks\TatBlog.WebApi |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-04-13 23:37:28.4714|0|INFO|Microsoft.Hosting.Lifetime|Application is shutting down... |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.StopApplication
