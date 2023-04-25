@@ -74,7 +74,7 @@ namespace TatBlog.WebApi.Endpoints
                 .WithName("GetBestAuthors")
                 .Produces<ApiResponse<IList<AuthorItem>>>();
 
-            routeGroupBuilder.MapGet("/{slug:regex(^[a-z0-9_-]+$)}/authors", GetPostByAuthorSlug)
+            routeGroupBuilder.MapGet("/{slug:regex(^[a-z0-9_-]+$)}/posts", GetPostByAuthorSlug)
                 .WithName("GetPostsByAuthorSlug")
                 .Produces<ApiResponse<PaginationResult<PostDto>>>();
 

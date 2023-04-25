@@ -11,7 +11,7 @@ import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import AdminLayout from "./Pages/Admin/Layout";
 import * as AdminIndex from "./Pages/Admin/Index";
 import Authors from "./Pages/Admin/Authors";
-import Categories from "./Pages/Admin/Categories";
+import Categories from "./Pages/Admin/Category/Categories";
 import Comments from "./Pages/Admin/Comments";
 import Tags from "./Pages/Admin/Tags";
 import Posts from "./Pages/Admin/Post/Posts";

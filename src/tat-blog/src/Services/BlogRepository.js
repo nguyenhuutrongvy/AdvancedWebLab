@@ -8,6 +8,10 @@ export async function getAthors(keyword = '', pageSize = 5, pageNumber = 1, sort
     return get_api(`https://localhost:7115/api/authors?Name=${keyword}&PageSize=${pageSize}&PageNumber=${pageNumber}&SortColumn=${sortColumn}&SortOrder=${sortOrder}`);
 }
 
+export async function getCategories(keyword = '', sortColumn = '', sortOrder = '') {
+    return get_api(`https://localhost:7115/api/categories?Name=${keyword}&SortColumn=${sortColumn}&SortOrder=${sortOrder}`);
+}
+
 export function getFilter() {
     return get_api('https://localhost:7115/api/posts/get-filter');
 }

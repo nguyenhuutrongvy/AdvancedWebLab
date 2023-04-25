@@ -16,16 +16,16 @@ BlogRepository repo = new BlogRepository(context);
 
 #region P16_Exec
 
-var posts = context.Posts.ToList();
-var categories = context.Categories.ToList();
-var authors = context.Authors.ToList();
+//var posts = context.Posts.ToList();
+//var categories = context.Categories.ToList();
+//var authors = context.Authors.ToList();
 
-WriteLine("{0,-4}{1,-100}{2,-20}{3,-20}", "ID", "Title", "Category", "Author");
+//WriteLine("{0,-4}{1,-100}{2,-20}{3,-20}", "ID", "Title", "Category", "Author");
 
-foreach (var post in posts)
-{
-    WriteLine("{0,-4}{1,-100}{2,-20}{3,-20}", post.Id, post.Title, categories.FirstOrDefault(x => x.Id == post.CategoryId).Name, authors.FirstOrDefault(x => x.Id == post.AuthorId).FullName);
-}
+//foreach (var post in posts)
+//{
+//    WriteLine("{0,-4}{1,-100}{2,-20}{3,-20}", post.Id, post.Title, categories.FirstOrDefault(x => x.Id == post.CategoryId).Name, authors.FirstOrDefault(x => x.Id == post.AuthorId).FullName);
+//}
 
 #endregion
 

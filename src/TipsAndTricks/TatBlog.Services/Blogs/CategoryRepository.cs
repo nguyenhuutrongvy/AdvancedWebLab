@@ -58,7 +58,6 @@ public class CategoryRepository : ICategoryRepository
 		CancellationToken cancellationToken = default)
 	{
 		return await _context.Set<Category>()
-			.OrderBy(a => a.Name)
 			.Select(a => new CategoryItem()
 			{
 				Id = a.Id,

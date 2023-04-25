@@ -1,30 +1,52 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Globalization;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace TatBlog.Services.Blogs
 {
     public static class ExtensionMethods
     {
-        public static string GenerateSlug(this string phrase)
+        /// <summary>  
+        /// Removes all accents from the input string.  
+        /// </summary>  
+        /// <param name="text">The input string.</param>  
+        /// <returns></returns>  
+        public static string RemoveAccents(this string text)
         {
-            string str = RemoveAccent(phrase.ToString()).ToLower();
+            if (string.IsNullOrWhiteSpace(text))
+                return text;
 
-            // Invalid chars           
-            str = Regex.Replace(str, @"[^a-z0-9\s-]", "");
+            text = text.Normalize(NormalizationForm.FormD);
+            char[] chars = text
+                .Where(c => CharUnicodeInfo.GetUnicodeCategory(c)
+                != UnicodeCategory.NonSpacingMark).ToArray();
 
-            // Convert multiple spaces into one space   
-            str = Regex.Replace(str, @"\s+", " ").Trim();
-
-            // Cut and trim 
-            str = str.Substring(0, str.Length <= 45 ? str.Length : 45).Trim();
-            str = Regex.Replace(str, @"\s", "-"); // hyphens
-
-            return str;
+            return new string(chars).Normalize(NormalizationForm.FormC);
         }
 
-        public static string RemoveAccent(this string txt)
+        /// <summary>  
+        /// Turn a string into a slug by removing all accents,   
+        /// special characters, additional spaces, substituting   
+        /// spaces with hyphens & making it lower-case.  
+        /// </summary>  
+        /// <param name="phrase">The string to turn into a slug.</param>  
+        /// <returns></returns>  
+        public static string GenerateSlug(this string phrase)
         {
-            byte[] bytes = System.Text.Encoding.GetEncoding("Cyrillic").GetBytes(txt);
-            return System.Text.Encoding.ASCII.GetString(bytes);
+            // Remove all accents and make the string lower case.  
+            string output = phrase.RemoveAccents().ToLower();
+
+            // Remove all special characters from the string.  
+            output = Regex.Replace(output, @"[^A-Za-z0-9\s-]", "");
+
+            // Remove all additional spaces in favour of just one.  
+            output = Regex.Replace(output, @"\s+", " ").Trim();
+
+            // Replace all spaces with the hyphen.  
+            output = Regex.Replace(output, @"\s", "-");
+
+            // Return the slug.  
+            return output;
         }
     }
 }
